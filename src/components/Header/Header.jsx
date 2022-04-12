@@ -1,7 +1,7 @@
 import React from "react";
 import {AppBar , Toolbar , Typography , InputBase , Box} from '@material-ui/core' ;
 import SearchIcon from '@material-ui/icons/Search' ; 
-import useStyles from './Styles';
+import useStyles from './Styles'; 
 
 function Header() {
     const classes = useStyles() ;
@@ -11,6 +11,7 @@ function Header() {
                <Typography variant ="h5" className={classes.title}>
                     MyCompanion
                </Typography>
+               
                <Box display="flex">
                <Typography variant ="h6" className={classes.title}>
                     Explore new places

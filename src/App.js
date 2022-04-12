@@ -1,15 +1,10 @@
+
 import React from "react";
-import BingMap from "./components/BingMap/BingMap";
-import Header from "./components/Header/Header";
-import List from "./components/List/List";
-import Map from "./components/Map/Map";
+import Home from "./pages/Home";
 function App(){
   return(
     <>
-    <Header/>
-    <List/>
-    <BingMap/>
-    
+    <Home />
     </>
   )
 }

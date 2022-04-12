@@ -12,6 +12,7 @@ export default makeStyles((theme) => ({
   },
   container: {
     padding: '25px',
+    backgroundColor:  '#fff7f7',
     
   },
   marginBottom: {
