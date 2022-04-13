@@ -1,0 +1,4906 @@
+ {
+  "data": [
+    {
+      "location_id": "324134",
+      "name": "Medina of Tetouan",
+      "latitude": "35.58817",
+      "longitude": "-5.362774",
+      "num_reviews": "435",
+      "timezone": "Africa/Casablanca",
+      "location_string": "Tetouan, Tanger-Tetouan-Al Hoceima",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/12/60/bc/11/cartoline-da-tetouan.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/12/60/bc/11/cartoline-da-tetouan.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "2000",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-o/12/60/bc/11/cartoline-da-tetouan.jpg",
+            "height": "1497"
+          },
+          "large": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/12/60/bc/11/cartoline-da-tetouan.jpg",
+            "height": "412"
+          },
+          "medium": {
+            "width": "250",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-f/12/60/bc/11/cartoline-da-tetouan.jpg",
+            "height": "187"
+          }
+        },
+        "is_blessed": false,
+        "uploaded_date": "2018-03-19T21:05:55-0400",
+        "caption": "Cartoline da Tetouan, Marocco",
+        "id": "308329489",
+        "helpful_votes": "5",
+        "published_date": "2018-03-19T21:05:55-0400",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [
+        {
+          "award_type": "CERTIFICATE_OF_EXCELLENCE",
+          "year": "2020",
+          "images": {
+            "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
+            "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2020_en_US_large-0-5.jpg"
+          },
+          "categories": [],
+          "display_name": "Certificate of Excellence 2020"
+        },
+        {
+          "award_type": "CERTIFICATE_OF_EXCELLENCE",
+          "year": "2019",
+          "images": {
+            "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
+            "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2019_en_US_large-0-5.jpg"
+          },
+          "categories": [],
+          "display_name": "Certificate of Excellence 2019"
+        },
+        {
+          "award_type": "CERTIFICATE_OF_EXCELLENCE",
+          "year": "2018",
+          "images": {
+            "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
+            "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2018_en_US_large-0-5.jpg"
+          },
+          "categories": [],
+          "display_name": "Certificate of Excellence 2018"
+        },
+        {
+          "award_type": "CERTIFICATE_OF_EXCELLENCE",
+          "year": "2017",
+          "images": {
+            "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
+            "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2017_en_US_large-0-5.jpg"
+          },
+          "categories": [],
+          "display_name": "Certificate of Excellence 2017"
+        },
+        {
+          "award_type": "CERTIFICATE_OF_EXCELLENCE",
+          "year": "2014",
+          "images": {
+            "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
+            "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-0-5.jpg"
+          },
+          "categories": [],
+          "display_name": "Certificate of Excellence 2014"
+        }
+      ],
+      "location_subtype": "none",
+      "doubleclick_zone": "af.morocco",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.807608127593994",
+      "ranking_geo": "Tetouan",
+      "ranking_geo_id": "295397",
+      "ranking_position": "1",
+      "ranking_denominator": "13",
+      "ranking_category": "attraction",
+      "ranking_subcategory": "#1 of 13 things to do in Tetouan",
+      "subcategory_ranking": "#1 of 13 things to do in Tetouan",
+      "ranking": "#1 of 13 things to do in Tetouan",
+      "distance": "0.5092840958796805",
+      "distance_string": "0.5 km",
+      "bearing": "southwest",
+      "rating": "4.0",
+      "is_closed": false,
+      "is_long_closed": false,
+      "description": "This historic town center is one of the most well-preserved in all of Morocco, exhibiting vital Islamic and Andalusian architectural detail.",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g295397-d324134-Reviews-Medina_of_Tetouan-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g295397-d324134-Medina_of_Tetouan-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Tetouan",
+          "abbrv": null,
+          "location_id": "295397"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "region",
+              "name": "Region"
+            }
+          ],
+          "name": "Tanger-Tetouan-Al Hoceima",
+          "abbrv": null,
+          "location_id": "2626788"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "Morocco",
+          "abbrv": null,
+          "location_id": "293730"
+        }
+      ],
+      "category": {
+        "key": "attraction",
+        "name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "key": "47",
+          "name": "Sights & Landmarks"
+        }
+      ],
+      "parent_display_name": "Tetouan",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "website": "https://whc.unesco.org/en/list/837/",
+      "address_obj": {
+        "street1": null,
+        "street2": "",
+        "city": "Tetouan",
+        "state": null,
+        "country": "Morocco",
+        "postalcode": null
+      },
+      "address": "Tetouan Morocco",
+      "is_candidate_for_contact_info_suppression": false,
+      "subtype": [
+        {
+          "key": "17",
+          "name": "Historic Sites"
+        }
+      ],
+      "booking": {
+        "provider": "Viator",
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FTetouan%2FTours-in-Tetouan-city-the-white-dove%2Fd50439-183630P2%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=7a8deb84f448b8a74&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=324134&clt=TM&from=api&nt=true"
+      },
+      "offer_group": {
+        "lowest_price": "$0.39",
+        "offer_list": [
+          {
+            "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FTetouan%2FTours-in-Tetouan-city-the-white-dove%2Fd50439-183630P2%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=7a8deb84f448b8a74&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=324134&clt=TM&from=api&nt=true",
+            "price": "$35.28",
+            "rounded_up_price": "$36",
+            "offer_type": "",
+            "title": "Tours in Tetouan city with Abir",
+            "product_code": "183630P2",
+            "partner": "Viator",
+            "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0a/2a/8b/27.jpg",
+            "description": null,
+            "primary_category": "Cultural Tours"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FTangier%2FTangier-Tetouan-Chefchaouen-Asilah-3-day-circuit%2Fd4388-239416P5%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=fad3926afdb319d50&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=324134&clt=TM&from=api&nt=true",
+            "price": "$409.48",
+            "rounded_up_price": "$410",
+            "offer_type": "",
+            "title": "Tangier - Tétouan - Chefchaouen - Asilah, 3-day circuit",
+            "product_code": "239416P5",
+            "partner": "Viator",
+            "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0a/38/95/25.jpg",
+            "description": null,
+            "primary_category": "Cultural Tours"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FTetouan%2FDay-trip-to-Tetouan-and-Chefchaouen%2Fd50439-239416P3%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=9029d54efb677e791&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=324134&clt=TM&from=api&nt=true",
+            "price": "$199.20",
+            "rounded_up_price": "$200",
+            "offer_type": "",
+            "title": "FROM Tetouan: Day trip to chefchaouen",
+            "product_code": "239416P3",
+            "partner": "Viator",
+            "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0a/38/4d/49.jpg",
+            "description": null,
+            "primary_category": "Cultural Tours"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FTangier%2FHighlights-of-the-North-3-Days-Tour-to-Tangier-Asilah-Chefchaouen-and-Tetouan%2Fd4388-161976P8%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=7fa8ce8d5ea3dde55&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=324134&clt=TM&from=api&nt=true",
+            "price": "$414.66",
+            "rounded_up_price": "$415",
+            "offer_type": "",
+            "title": "Highlights of the North: 3 Days Tour to Tangier, Asilah, Chefchaouen & Tetouan",
+            "product_code": "161976P8",
+            "partner": "Viator",
+            "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0a/2b/6a/7d.jpg",
+            "description": null,
+            "primary_category": "Cultural Tours"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FChefchaouen%2FWeek-end-in-the-Rif%2Fd50203-111117P28%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=37b368c4f26f36d61&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=324134&clt=TM&from=api&nt=true",
+            "price": "$210.27",
+            "rounded_up_price": "$211",
+            "offer_type": "",
+            "title": "Discover the north in 2 Days",
+            "product_code": "111117P28",
+            "partner": "Viator",
+            "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0a/76/41/c0.jpg",
+            "description": null,
+            "primary_category": "Cultural Tours"
+          }
+        ],
+        "has_see_all_url": true,
+        "is_eligible_for_ap_list": true
+      }
+    },
+    {
+      "location_id": "15224053",
+      "name": "Dar El Oddi",
+      "latitude": "35.570946",
+      "longitude": "-5.365891",
+      "num_reviews": "17",
+      "timezone": "Africa/Casablanca",
+      "location_string": "Tetouan, Tanger-Tetouan-Al Hoceima",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/15/4c/f1/06/dar-el-oddi.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/15/4c/f1/06/dar-el-oddi.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "1280",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/15/4c/f1/06/dar-el-oddi.jpg",
+            "height": "959"
+          },
+          "large": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/15/4c/f1/06/dar-el-oddi.jpg",
+            "height": "412"
+          },
+          "medium": {
+            "width": "250",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-f/15/4c/f1/06/dar-el-oddi.jpg",
+            "height": "187"
+          }
+        },
+        "is_blessed": true,
+        "uploaded_date": "2018-11-08T14:49:49-0500",
+        "caption": "Dar el Oddi",
+        "id": "357363974",
+        "helpful_votes": "2",
+        "published_date": "2018-11-08T14:49:49-0500",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [],
+      "location_subtype": "none",
+      "doubleclick_zone": "af.morocco",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.0958805084228516",
+      "ranking_geo": "Tetouan",
+      "ranking_geo_id": "295397",
+      "ranking_position": "2",
+      "ranking_denominator": "13",
+      "ranking_category": "attraction",
+      "ranking_subcategory": "#2 of 13 things to do in Tetouan",
+      "subcategory_ranking": "#2 of 13 things to do in Tetouan",
+      "ranking": "#2 of 13 things to do in Tetouan",
+      "distance": "2.2904877508166352",
+      "distance_string": "2.3 km",
+      "bearing": "south",
+      "rating": "5.0",
+      "is_closed": false,
+      "open_now_text": "Open Now",
+      "is_long_closed": false,
+      "description": "WE INFORM YOU THAT THE CULTURAL SPACE DAR EL ODDI WILL BE CLOSED FROM THE MONDAY 6th MAY TILL THE THURSDAY 6th JUNE INCLUDED. This traditional house, situated at the heart of the Medina of Tetuan was completely restored and the rooms were fitted out to hold the permanent exhibition \"VISIONS OF TETUAN, 16th-20th CENTURIES\", a collection of pictures where places, landscapes and urban spaces succeed one another to reveal the marvels of Tetuan, declared World Heritage by the UNESCO.",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g295397-d15224053-Reviews-Dar_El_Oddi-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g295397-d15224053-Dar_El_Oddi-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Tetouan",
+          "abbrv": null,
+          "location_id": "295397"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "region",
+              "name": "Region"
+            }
+          ],
+          "name": "Tanger-Tetouan-Al Hoceima",
+          "abbrv": null,
+          "location_id": "2626788"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "Morocco",
+          "abbrv": null,
+          "location_id": "293730"
+        }
+      ],
+      "category": {
+        "key": "attraction",
+        "name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "key": "49",
+          "name": "Museums"
+        }
+      ],
+      "parent_display_name": "Tetouan",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "phone": "+212 5397-21671",
+      "website": "http://www.dareloddi.com",
+      "email": "dareloddi@gmail.com",
+      "address_obj": {
+        "street1": "5, Derb Oddi",
+        "street2": "Medina",
+        "city": "Tetouan",
+        "state": null,
+        "country": "Morocco",
+        "postalcode": null
+      },
+      "address": "5, Derb Oddi Medina, Tetouan Morocco",
+      "hours": {
+        "week_ranges": [
+          [
+            {
+              "open_time": 600,
+              "close_time": 1110
+            }
+          ],
+          [],
+          [
+            {
+              "open_time": 600,
+              "close_time": 1110
+            }
+          ],
+          [
+            {
+              "open_time": 600,
+              "close_time": 1110
+            }
+          ],
+          [
+            {
+              "open_time": 600,
+              "close_time": 1110
+            }
+          ],
+          [
+            {
+              "open_time": 600,
+              "close_time": 1110
+            }
+          ],
+          [
+            {
+              "open_time": 600,
+              "close_time": 1110
+            }
+          ]
+        ],
+        "timezone": "Africa/Casablanca"
+      },
+      "is_candidate_for_contact_info_suppression": false,
+      "subtype": [
+        {
+          "key": "161",
+          "name": "Specialty Museums"
+        },
+        {
+          "key": "28",
+          "name": "Art Museums"
+        },
+        {
+          "key": "30",
+          "name": "History Museums"
+        }
+      ]
+    },
+    {
+      "location_id": "6886417",
+      "name": "Modern Art Center of Tetouan",
+      "latitude": "35.57693",
+      "longitude": "-5.37273",
+      "num_reviews": "33",
+      "timezone": "Africa/Casablanca",
+      "location_string": "Tetouan, Tanger-Tetouan-Al Hoceima",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/06/80/74/04/the-tetouan-centre-of.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/06/80/74/04/the-tetouan-centre-of.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "2000",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-o/06/80/74/04/the-tetouan-centre-of.jpg",
+            "height": "1329"
+          },
+          "large": {
+            "width": "1024",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-w/06/80/74/04/the-tetouan-centre-of.jpg",
+            "height": "680"
+          },
+          "medium": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/06/80/74/04/the-tetouan-centre-of.jpg",
+            "height": "365"
+          }
+        },
+        "is_blessed": true,
+        "uploaded_date": "2014-09-03T12:09:24-0400",
+        "caption": "внутри",
+        "id": "109081604",
+        "helpful_votes": "6",
+        "published_date": "2014-09-12T03:52:40-0400",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [],
+      "location_subtype": "none",
+      "doubleclick_zone": "af.morocco",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.006199598312378",
+      "ranking_geo": "Tetouan",
+      "ranking_geo_id": "295397",
+      "ranking_position": "4",
+      "ranking_denominator": "13",
+      "ranking_category": "attraction",
+      "ranking_subcategory": "#4 of 13 things to do in Tetouan",
+      "subcategory_ranking": "#4 of 13 things to do in Tetouan",
+      "ranking": "#4 of 13 things to do in Tetouan",
+      "distance": "2.0176607545079173",
+      "distance_string": "2 km",
+      "bearing": "southwest",
+      "rating": "4.0",
+      "is_closed": false,
+      "open_now_text": "Open Now",
+      "is_long_closed": false,
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g295397-d6886417-Reviews-Modern_Art_Center_of_Tetouan-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g295397-d6886417-Modern_Art_Center_of_Tetouan-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Tetouan",
+          "abbrv": null,
+          "location_id": "295397"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "region",
+              "name": "Region"
+            }
+          ],
+          "name": "Tanger-Tetouan-Al Hoceima",
+          "abbrv": null,
+          "location_id": "2626788"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "Morocco",
+          "abbrv": null,
+          "location_id": "293730"
+        }
+      ],
+      "category": {
+        "key": "attraction",
+        "name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "key": "47",
+          "name": "Sights & Landmarks"
+        }
+      ],
+      "parent_display_name": "Tetouan",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "phone": "+212 5397-18946",
+      "website": "https://www.tetouanet.com/centre-d-art-moderne-tetouan-7.html",
+      "email": "tetouanetcom@gmail.com",
+      "address_obj": {
+        "street1": "S/N, Avenue Al Massira",
+        "street2": null,
+        "city": "Tetouan",
+        "state": null,
+        "country": "Morocco",
+        "postalcode": "93000"
+      },
+      "address": "S/N, Avenue Al Massira, Tetouan 93000 Morocco",
+      "hours": {
+        "week_ranges": [
+          [],
+          [],
+          [
+            {
+              "open_time": 570,
+              "close_time": 780
+            },
+            {
+              "open_time": 840,
+              "close_time": 1020
+            }
+          ],
+          [
+            {
+              "open_time": 570,
+              "close_time": 780
+            },
+            {
+              "open_time": 840,
+              "close_time": 1020
+            }
+          ],
+          [
+            {
+              "open_time": 570,
+              "close_time": 780
+            },
+            {
+              "open_time": 840,
+              "close_time": 1020
+            }
+          ],
+          [
+            {
+              "open_time": 570,
+              "close_time": 780
+            },
+            {
+              "open_time": 840,
+              "close_time": 1020
+            }
+          ],
+          [
+            {
+              "open_time": 570,
+              "close_time": 780
+            },
+            {
+              "open_time": 840,
+              "close_time": 1020
+            }
+          ]
+        ],
+        "timezone": "Africa/Casablanca"
+      },
+      "is_candidate_for_contact_info_suppression": false,
+      "subtype": [
+        {
+          "key": "163",
+          "name": "Points of Interest & Landmarks"
+        }
+      ],
+      "booking": {
+        "provider": "Viator",
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FTangier%2FPrivate-city-tour-of-Tetouan%2Fd4388-8647P234%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=560b4661eeabfbf83&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=6886417&clt=TM&from=api&nt=true"
+      },
+      "offer_group": {
+        "lowest_price": "$0.93",
+        "offer_list": [
+          {
+            "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FTangier%2FPrivate-city-tour-of-Tetouan%2Fd4388-8647P234%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=560b4661eeabfbf83&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=6886417&clt=TM&from=api&nt=true",
+            "price": "$199.20",
+            "rounded_up_price": "$200",
+            "offer_type": "",
+            "title": "Private Shore Excursion to Tetouan from Tangier (pick up from hotel possible)",
+            "product_code": "8647P234",
+            "partner": "Viator",
+            "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/3d/b4/4a.jpg",
+            "description": null,
+            "primary_category": "Cultural Tours"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FTangier%2FPrivate-Day-Trip-to-Chefchaouen%2Fd4388-180573P16%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=b7cf3984b5b2e39bb&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=6886417&clt=TM&from=api&nt=true",
+            "price": "$186.40",
+            "rounded_up_price": "$187",
+            "offer_type": "",
+            "title": "Private Day Trip to Chefchaouen ",
+            "product_code": "180573P16",
+            "partner": "Viator",
+            "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/09/9e/ea/08.jpg",
+            "description": null,
+            "primary_category": "Cultural Tours"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FTangier%2FTetouan-Day-Tour-from-Tangier%2Fd4388-102346P6%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=248f7ad254bc0065c&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=6886417&clt=TM&from=api&nt=true",
+            "price": "$93.15",
+            "rounded_up_price": "$94",
+            "offer_type": "",
+            "title": "Tetouan Private tour “Day trip from Tangier”",
+            "product_code": "102346P6",
+            "partner": "Viator",
+            "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0b/0f/37/1a.jpg",
+            "description": null,
+            "primary_category": "Cultural Tours"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FTangier%2FTetouan-Private-tour-Day-trip-from-Tangier%2Fd4388-154478P4%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=63855b8f81b0920a7&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=6886417&clt=TM&from=api&nt=true",
+            "price": "$135.00",
+            "rounded_up_price": "$135",
+            "offer_type": "",
+            "title": "Tetouan Private tour \"Day trip from Tangier\"",
+            "product_code": "154478P4",
+            "partner": "Viator",
+            "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/09/1c/a0/bc.jpg",
+            "description": null,
+            "primary_category": "Cultural Tours"
+          }
+        ],
+        "has_see_all_url": true,
+        "is_eligible_for_ap_list": true
+      }
+    },
+    {
+      "location_id": "3927411",
+      "name": "Archaeological Museum of Tetouan",
+      "latitude": "35.570724",
+      "longitude": "-5.370654",
+      "num_reviews": "47",
+      "timezone": "Africa/Casablanca",
+      "location_string": "Tetouan, Tanger-Tetouan-Al Hoceima",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/06/c2/e5/2a/musee-d-archeologie-a.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/06/c2/e5/2a/musee-d-archeologie-a.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "2000",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-o/06/c2/e5/2a/musee-d-archeologie-a.jpg",
+            "height": "1333"
+          },
+          "large": {
+            "width": "1024",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-w/06/c2/e5/2a/musee-d-archeologie-a.jpg",
+            "height": "682"
+          },
+          "medium": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/06/c2/e5/2a/musee-d-archeologie-a.jpg",
+            "height": "367"
+          }
+        },
+        "is_blessed": true,
+        "uploaded_date": "2014-10-20T08:37:16-0400",
+        "caption": "Salle de Tamuda",
+        "id": "113435946",
+        "helpful_votes": "7",
+        "published_date": "2014-10-21T02:08:04-0400",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [],
+      "location_subtype": "none",
+      "doubleclick_zone": "af.morocco",
+      "preferred_map_engine": "default",
+      "raw_ranking": "2.893327474594116",
+      "ranking_geo": "Tetouan",
+      "ranking_geo_id": "295397",
+      "ranking_position": "5",
+      "ranking_denominator": "13",
+      "ranking_category": "attraction",
+      "ranking_subcategory": "#5 of 13 things to do in Tetouan",
+      "subcategory_ranking": "#5 of 13 things to do in Tetouan",
+      "ranking": "#5 of 13 things to do in Tetouan",
+      "distance": "2.4824196723109706",
+      "distance_string": "2.5 km",
+      "bearing": "southwest",
+      "rating": "3.5",
+      "is_closed": false,
+      "open_now_text": "Closed today",
+      "is_long_closed": false,
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g295397-d3927411-Reviews-Archaeological_Museum_of_Tetouan-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g295397-d3927411-Archaeological_Museum_of_Tetouan-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Tetouan",
+          "abbrv": null,
+          "location_id": "295397"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "region",
+              "name": "Region"
+            }
+          ],
+          "name": "Tanger-Tetouan-Al Hoceima",
+          "abbrv": null,
+          "location_id": "2626788"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "Morocco",
+          "abbrv": null,
+          "location_id": "293730"
+        }
+      ],
+      "category": {
+        "key": "attraction",
+        "name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "key": "49",
+          "name": "Museums"
+        }
+      ],
+      "parent_display_name": "Tetouan",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "address_obj": {
+        "street1": "2 Avenue Mohamed Ben Larbi Torres",
+        "street2": null,
+        "city": "Tetouan",
+        "state": null,
+        "country": "Morocco",
+        "postalcode": "93000"
+      },
+      "address": "2 Avenue Mohamed Ben Larbi Torres, Tetouan 93000 Morocco",
+      "hours": {
+        "week_ranges": [
+          [
+            {
+              "open_time": 600,
+              "close_time": 1080
+            }
+          ],
+          [
+            {
+              "open_time": 600,
+              "close_time": 1080
+            }
+          ],
+          [],
+          [
+            {
+              "open_time": 600,
+              "close_time": 1080
+            }
+          ],
+          [
+            {
+              "open_time": 600,
+              "close_time": 1080
+            }
+          ],
+          [
+            {
+              "open_time": 600,
+              "close_time": 1080
+            }
+          ],
+          [
+            {
+              "open_time": 600,
+              "close_time": 1080
+            }
+          ]
+        ],
+        "timezone": "Africa/Casablanca"
+      },
+      "is_candidate_for_contact_info_suppression": false,
+      "subtype": [
+        {
+          "key": "161",
+          "name": "Specialty Museums"
+        }
+      ],
+      "booking": {
+        "provider": "Viator",
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FTangier%2FTangier-Tetouan-Chefchaouen-Asilah-3-day-circuit%2Fd4388-239416P5%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=fad3926afdb319d50&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=3927411&clt=TM&from=api&nt=true"
+      },
+      "offer_group": {
+        "lowest_price": "$1.47",
+        "offer_list": [
+          {
+            "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FTangier%2FTangier-Tetouan-Chefchaouen-Asilah-3-day-circuit%2Fd4388-239416P5%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=fad3926afdb319d50&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=3927411&clt=TM&from=api&nt=true",
+            "price": "$409.48",
+            "rounded_up_price": "$410",
+            "offer_type": "",
+            "title": "Tangier - Tétouan - Chefchaouen - Asilah, 3-day circuit",
+            "product_code": "239416P5",
+            "partner": "Viator",
+            "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0a/38/95/25.jpg",
+            "description": null,
+            "primary_category": "Cultural Tours"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FTetouan%2FDay-trip-to-Tetouan-and-Chefchaouen%2Fd50439-239416P3%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=9029d54efb677e791&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=3927411&clt=TM&from=api&nt=true",
+            "price": "$199.20",
+            "rounded_up_price": "$200",
+            "offer_type": "",
+            "title": "FROM Tetouan: Day trip to chefchaouen",
+            "product_code": "239416P3",
+            "partner": "Viator",
+            "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0a/38/4d/49.jpg",
+            "description": null,
+            "primary_category": "Cultural Tours"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FCasablanca%2FDay-trip-with-a-local-familly-to-the-mediterranean-beach%2Fd4396-111117P30%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=5bebf9f78a8baa605&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=3927411&clt=TM&from=api&nt=true",
+            "price": "$132.67",
+            "rounded_up_price": "$133",
+            "offer_type": "",
+            "title": "Full Day Trip to the Mediterranean beach",
+            "product_code": "111117P30",
+            "partner": "Viator",
+            "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/b2/8b/99.jpg",
+            "description": null,
+            "primary_category": "4WD, ATV & Off-Road Tours"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FTangier%2FPrivate-Day-Trip-to-Chefchaouen%2Fd4388-180573P16%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=b7cf3984b5b2e39bb&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=3927411&clt=TM&from=api&nt=true",
+            "price": "$186.40",
+            "rounded_up_price": "$187",
+            "offer_type": "",
+            "title": "Private Day Trip to Chefchaouen ",
+            "product_code": "180573P16",
+            "partner": "Viator",
+            "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/09/9e/ea/08.jpg",
+            "description": null,
+            "primary_category": "Cultural Tours"
+          }
+        ],
+        "has_see_all_url": true,
+        "is_eligible_for_ap_list": true
+      }
+    },
+    {
+      "location_id": "15208574",
+      "name": "Jewish cemetery of Tetouan",
+      "latitude": "35.576958",
+      "longitude": "-5.367125",
+      "num_reviews": "6",
+      "timezone": "Africa/Casablanca",
+      "location_string": "Tetouan, Tanger-Tetouan-Al Hoceima",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/15/00/0a/63/jewish-cemetery-of-tetouan.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/15/00/0a/63/jewish-cemetery-of-tetouan.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "1280",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/15/00/0a/63/jewish-cemetery-of-tetouan.jpg",
+            "height": "853"
+          },
+          "large": {
+            "width": "1024",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-w/15/00/0a/63/jewish-cemetery-of-tetouan.jpg",
+            "height": "683"
+          },
+          "medium": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/15/00/0a/63/jewish-cemetery-of-tetouan.jpg",
+            "height": "367"
+          }
+        },
+        "is_blessed": false,
+        "uploaded_date": "2018-10-10T15:50:45-0400",
+        "caption": "Jewish cemetery of Tetouan ",
+        "id": "352324195",
+        "helpful_votes": "1",
+        "published_date": "2018-10-10T15:50:45-0400",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [],
+      "location_subtype": "none",
+      "doubleclick_zone": "af.morocco",
+      "preferred_map_engine": "default",
+      "raw_ranking": "2.820462703704834",
+      "ranking_geo": "Tetouan",
+      "ranking_geo_id": "295397",
+      "ranking_position": "9",
+      "ranking_denominator": "13",
+      "ranking_category": "attraction",
+      "ranking_subcategory": "#9 of 13 things to do in Tetouan",
+      "subcategory_ranking": "#9 of 13 things to do in Tetouan",
+      "ranking": "#9 of 13 things to do in Tetouan",
+      "distance": "1.7201306859845116",
+      "distance_string": "1.7 km",
+      "bearing": "southwest",
+      "rating": "4.0",
+      "is_closed": false,
+      "is_long_closed": false,
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g295397-d15208574-Reviews-Jewish_cemetery_of_Tetouan-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g295397-d15208574-Jewish_cemetery_of_Tetouan-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Tetouan",
+          "abbrv": null,
+          "location_id": "295397"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "region",
+              "name": "Region"
+            }
+          ],
+          "name": "Tanger-Tetouan-Al Hoceima",
+          "abbrv": null,
+          "location_id": "2626788"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "Morocco",
+          "abbrv": null,
+          "location_id": "293730"
+        }
+      ],
+      "category": {
+        "key": "attraction",
+        "name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "key": "47",
+          "name": "Sights & Landmarks"
+        }
+      ],
+      "parent_display_name": "Tetouan",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "phone": "+212 661-507886",
+      "address_obj": {
+        "street1": "Avenue Homane Al Fatouaki",
+        "street2": null,
+        "city": "Tetouan",
+        "state": null,
+        "country": "Morocco",
+        "postalcode": null
+      },
+      "address": "Avenue Homane Al Fatouaki, Tetouan Morocco",
+      "is_candidate_for_contact_info_suppression": false,
+      "subtype": [
+        {
+          "key": "163",
+          "name": "Points of Interest & Landmarks"
+        },
+        {
+          "key": "7",
+          "name": "Cemeteries"
+        },
+        {
+          "key": "10",
+          "name": "Sacred & Religious Sites"
+        }
+      ],
+      "booking": {
+        "provider": "Viator",
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FTangier%2FTetouan-Day-Tour-from-Tangier%2Fd4388-102346P6%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=248f7ad254bc0065c&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=15208574&clt=TM&from=api&nt=true"
+      },
+      "offer_group": {
+        "lowest_price": "$0.93",
+        "offer_list": [
+          {
+            "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FTangier%2FTetouan-Day-Tour-from-Tangier%2Fd4388-102346P6%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=248f7ad254bc0065c&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=15208574&clt=TM&from=api&nt=true",
+            "price": "$93.15",
+            "rounded_up_price": "$94",
+            "offer_type": "",
+            "title": "Tetouan Private tour “Day trip from Tangier”",
+            "product_code": "102346P6",
+            "partner": "Viator",
+            "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0b/0f/37/1a.jpg",
+            "description": null,
+            "primary_category": "Cultural Tours"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FTangier%2FTetouan-Private-tour-Day-trip-from-Tangier%2Fd4388-154478P4%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=63855b8f81b0920a7&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=15208574&clt=TM&from=api&nt=true",
+            "price": "$135.00",
+            "rounded_up_price": "$135",
+            "offer_type": "",
+            "title": "Tetouan Private tour \"Day trip from Tangier\"",
+            "product_code": "154478P4",
+            "partner": "Viator",
+            "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/09/1c/a0/bc.jpg",
+            "description": null,
+            "primary_category": "Cultural Tours"
+          }
+        ],
+        "has_see_all_url": true,
+        "is_eligible_for_ap_list": true
+      }
+    },
+    {
+      "location_id": "17341918",
+      "name": "Ensemble Artisanal",
+      "latitude": "35.56691",
+      "longitude": "-5.36772",
+      "num_reviews": "3",
+      "timezone": "Africa/Casablanca",
+      "location_string": "Tetouan, Tanger-Tetouan-Al Hoceima",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/17/79/f3/91/ensemble-artisanal.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/17/79/f3/91/ensemble-artisanal.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "1024",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-w/17/79/f3/91/ensemble-artisanal.jpg",
+            "height": "2048"
+          },
+          "large": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-p/17/79/f3/91/ensemble-artisanal.jpg",
+            "height": "1100"
+          },
+          "medium": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-p/17/79/f3/91/ensemble-artisanal.jpg",
+            "height": "1100"
+          }
+        },
+        "is_blessed": true,
+        "uploaded_date": "2019-05-11T03:56:03-0400",
+        "caption": "Ensemble Artisanal",
+        "id": "393868177",
+        "helpful_votes": "1",
+        "published_date": "2019-05-11T03:56:03-0400",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [],
+      "location_subtype": "none",
+      "doubleclick_zone": "af.morocco",
+      "preferred_map_engine": "default",
+      "raw_ranking": "2.7962005138397217",
+      "ranking_geo": "Tetouan",
+      "ranking_geo_id": "295397",
+      "ranking_position": "11",
+      "ranking_denominator": "13",
+      "ranking_category": "attraction",
+      "ranking_subcategory": "#11 of 13 things to do in Tetouan",
+      "subcategory_ranking": "#11 of 13 things to do in Tetouan",
+      "ranking": "#11 of 13 things to do in Tetouan",
+      "distance": "2.769009556984492",
+      "distance_string": "2.8 km",
+      "bearing": "south",
+      "rating": "4.5",
+      "is_closed": false,
+      "open_now_text": "Open Now",
+      "is_long_closed": false,
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g295397-d17341918-Reviews-Ensemble_Artisanal-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g295397-d17341918-Ensemble_Artisanal-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Tetouan",
+          "abbrv": null,
+          "location_id": "295397"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "region",
+              "name": "Region"
+            }
+          ],
+          "name": "Tanger-Tetouan-Al Hoceima",
+          "abbrv": null,
+          "location_id": "2626788"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "Morocco",
+          "abbrv": null,
+          "location_id": "293730"
+        }
+      ],
+      "category": {
+        "key": "attraction",
+        "name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "key": "26",
+          "name": "Shopping"
+        }
+      ],
+      "parent_display_name": "Tetouan",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "address_obj": {
+        "street1": "Avenue Hassan I corner Avenue Al Massira",
+        "street2": null,
+        "city": "Tetouan",
+        "state": null,
+        "country": "Morocco",
+        "postalcode": null
+      },
+      "address": "Avenue Hassan I corner Avenue Al Massira, Tetouan Morocco",
+      "hours": {
+        "week_ranges": [
+          [],
+          [
+            {
+              "open_time": 480,
+              "close_time": 1200
+            }
+          ],
+          [
+            {
+              "open_time": 480,
+              "close_time": 1200
+            }
+          ],
+          [
+            {
+              "open_time": 480,
+              "close_time": 1200
+            }
+          ],
+          [
+            {
+              "open_time": 480,
+              "close_time": 1200
+            }
+          ],
+          [
+            {
+              "open_time": 480,
+              "close_time": 1200
+            }
+          ],
+          [
+            {
+              "open_time": 480,
+              "close_time": 1200
+            }
+          ]
+        ],
+        "timezone": "Africa/Casablanca"
+      },
+      "is_candidate_for_contact_info_suppression": false,
+      "subtype": [
+        {
+          "key": "143",
+          "name": "Shopping Malls"
+        }
+      ]
+    },
+    {
+      "location_id": "295397",
+      "ad_position": "inline1",
+      "ad_size": "8X8",
+      "doubleclick_zone": "af.morocco",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "region",
+              "name": "Region"
+            }
+          ],
+          "name": "Tanger-Tetouan-Al Hoceima",
+          "abbrv": null,
+          "location_id": "2626788"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "Morocco",
+          "abbrv": null,
+          "location_id": "293730"
+        }
+      ],
+      "detail": "0",
+      "page_type": "attractions",
+      "mob_ptype": "app_attractions"
+    },
+    {
+      "location_id": "9597349",
+      "name": "The Ethnographic Museum",
+      "latitude": "35.593517",
+      "longitude": "-5.365256",
+      "num_reviews": "12",
+      "timezone": "Africa/Casablanca",
+      "location_string": "Tetouan, Tanger-Tetouan-Al Hoceima",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/0a/28/b3/c7/20160123-164056-largejpg.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/0a/28/b3/c7/20160123-164056-largejpg.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "648",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-o/0a/28/b3/c7/20160123-164056-largejpg.jpg",
+            "height": "1152"
+          },
+          "large": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-p/0a/28/b3/c7/20160123-164056-largejpg.jpg",
+            "height": "977"
+          },
+          "medium": {
+            "width": "253",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/0a/28/b3/c7/20160123-164056-largejpg.jpg",
+            "height": "450"
+          }
+        },
+        "is_blessed": true,
+        "uploaded_date": "2016-01-27T14:12:30-0500",
+        "caption": "",
+        "id": "170439623",
+        "helpful_votes": "3",
+        "published_date": "2016-01-27T14:12:30-0500",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [],
+      "location_subtype": "none",
+      "doubleclick_zone": "af.morocco",
+      "preferred_map_engine": "default",
+      "raw_ranking": "2.838236093521118",
+      "ranking_geo": "Tetouan",
+      "ranking_geo_id": "295397",
+      "ranking_position": "7",
+      "ranking_denominator": "13",
+      "ranking_category": "attraction",
+      "ranking_subcategory": "#7 of 13 things to do in Tetouan",
+      "subcategory_ranking": "#7 of 13 things to do in Tetouan",
+      "ranking": "#7 of 13 things to do in Tetouan",
+      "distance": "0.7455802780374086",
+      "distance_string": "0.7 km",
+      "bearing": "northwest",
+      "rating": "4.0",
+      "is_closed": false,
+      "open_now_text": "Closed today",
+      "is_long_closed": false,
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g295397-d9597349-Reviews-The_Ethnographic_Museum-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g295397-d9597349-The_Ethnographic_Museum-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Tetouan",
+          "abbrv": null,
+          "location_id": "295397"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "region",
+              "name": "Region"
+            }
+          ],
+          "name": "Tanger-Tetouan-Al Hoceima",
+          "abbrv": null,
+          "location_id": "2626788"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "Morocco",
+          "abbrv": null,
+          "location_id": "293730"
+        }
+      ],
+      "category": {
+        "key": "attraction",
+        "name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "key": "49",
+          "name": "Museums"
+        }
+      ],
+      "parent_display_name": "Tetouan",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "phone": "(212 9) 97 05 05",
+      "website": "http://www.facebook.com/MuseeBabOqla/",
+      "address_obj": {
+        "street1": "Avenue Skala Bab El Oukla",
+        "street2": null,
+        "city": "Tetouan",
+        "state": null,
+        "country": "Morocco",
+        "postalcode": null
+      },
+      "address": "Avenue Skala Bab El Oukla, Tetouan Morocco",
+      "hours": {
+        "week_ranges": [
+          [
+            {
+              "open_time": 600,
+              "close_time": 1080
+            }
+          ],
+          [
+            {
+              "open_time": 600,
+              "close_time": 1080
+            }
+          ],
+          [],
+          [
+            {
+              "open_time": 600,
+              "close_time": 1080
+            }
+          ],
+          [
+            {
+              "open_time": 600,
+              "close_time": 1080
+            }
+          ],
+          [
+            {
+              "open_time": 600,
+              "close_time": 1080
+            }
+          ],
+          [
+            {
+              "open_time": 600,
+              "close_time": 1080
+            }
+          ]
+        ],
+        "timezone": "Africa/Casablanca"
+      },
+      "is_candidate_for_contact_info_suppression": false,
+      "subtype": [
+        {
+          "key": "30",
+          "name": "History Museums"
+        }
+      ]
+    },
+    {
+      "location_id": "12966801",
+      "name": "Galerie d’Art",
+      "latitude": "35.585533",
+      "longitude": "-5.341356",
+      "num_reviews": "1",
+      "timezone": "Africa/Casablanca",
+      "location_string": "Tetouan, Tanger-Tetouan-Al Hoceima",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/10/eb/68/d4/getlstd-property-photo.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/10/eb/68/d4/getlstd-property-photo.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "960",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-o/10/eb/68/d4/getlstd-property-photo.jpg",
+            "height": "960"
+          },
+          "large": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-p/10/eb/68/d4/getlstd-property-photo.jpg",
+            "height": "550"
+          },
+          "medium": {
+            "width": "450",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/10/eb/68/d4/getlstd-property-photo.jpg",
+            "height": "450"
+          }
+        },
+        "is_blessed": true,
+        "uploaded_date": "2017-10-09T12:40:21-0400",
+        "caption": "getlstd_property_photo",
+        "id": "283863252",
+        "helpful_votes": "3",
+        "published_date": "2017-10-09T12:40:21-0400",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [],
+      "location_subtype": "none",
+      "doubleclick_zone": "af.morocco",
+      "preferred_map_engine": "default",
+      "raw_ranking": "2.7589259147644043",
+      "ranking_geo": "Tetouan",
+      "ranking_geo_id": "295397",
+      "ranking_position": "13",
+      "ranking_denominator": "13",
+      "ranking_category": "attraction",
+      "ranking_subcategory": "#13 of 13 things to do in Tetouan",
+      "subcategory_ranking": "#13 of 13 things to do in Tetouan",
+      "ranking": "#13 of 13 things to do in Tetouan",
+      "distance": "1.5965375630036238",
+      "distance_string": "1.6 km",
+      "bearing": "east",
+      "rating": "5.0",
+      "is_closed": false,
+      "is_long_closed": false,
+      "description": "The art gallery \"El Fenn\", based in Tetouan - northern Morocco, is a meeting place and dissemination of art for all audiences. Our main objective is to promote contemporary art, to support and promote artists, but also to develop new cultural activities for the greatest number of people.",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g295397-d12966801-Reviews-Galerie_d_Art-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g295397-d12966801-Galerie_d_Art-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Tetouan",
+          "abbrv": null,
+          "location_id": "295397"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "region",
+              "name": "Region"
+            }
+          ],
+          "name": "Tanger-Tetouan-Al Hoceima",
+          "abbrv": null,
+          "location_id": "2626788"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "Morocco",
+          "abbrv": null,
+          "location_id": "293730"
+        }
+      ],
+      "category": {
+        "key": "attraction",
+        "name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "key": "26",
+          "name": "Shopping"
+        },
+        {
+          "key": "49",
+          "name": "Museums"
+        }
+      ],
+      "parent_display_name": "Tetouan",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "phone": "+212 655-755151",
+      "website": "http://www.elfenn.ma",
+      "email": "info@elfenn.ma",
+      "address_obj": {
+        "street1": null,
+        "street2": "Marj Khalal No 6 Wilaya Center",
+        "city": "Tetouan",
+        "state": null,
+        "country": "Morocco",
+        "postalcode": "93000"
+      },
+      "address": "Marj Khalal No 6 Wilaya Center, Tetouan 93000 Morocco",
+      "is_candidate_for_contact_info_suppression": false,
+      "subtype": [
+        {
+          "key": "1",
+          "name": "Art Galleries"
+        }
+      ]
+    },
+    {
+      "location_id": "12945636",
+      "name": "Tetouan Quad Discovery",
+      "latitude": "35.62633",
+      "longitude": "-5.341925",
+      "num_reviews": "106",
+      "timezone": "Africa/Casablanca",
+      "location_string": "Tetouan, Tanger-Tetouan-Al Hoceima",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/10/fc/55/59/barrage-asmir.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/10/fc/55/59/barrage-asmir.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "2000",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-o/10/fc/55/59/barrage-asmir.jpg",
+            "height": "1500"
+          },
+          "large": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/10/fc/55/59/barrage-asmir.jpg",
+            "height": "413"
+          },
+          "medium": {
+            "width": "250",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-f/10/fc/55/59/barrage-asmir.jpg",
+            "height": "188"
+          }
+        },
+        "is_blessed": true,
+        "uploaded_date": "2017-10-16T09:24:12-0400",
+        "caption": "Barrage Asmir",
+        "id": "284972377",
+        "helpful_votes": "0",
+        "published_date": "2017-10-16T09:24:12-0400",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [
+        {
+          "award_type": "CERTIFICATE_OF_EXCELLENCE",
+          "year": "2020",
+          "images": {
+            "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
+            "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2020_en_US_large-0-5.jpg"
+          },
+          "categories": [],
+          "display_name": "Certificate of Excellence 2020"
+        }
+      ],
+      "location_subtype": "tour_operator",
+      "doubleclick_zone": "af.morocco",
+      "preferred_map_engine": "default",
+      "raw_ranking": "4.394881248474121",
+      "ranking_geo": "Tetouan",
+      "ranking_geo_id": "295397",
+      "ranking_position": "1",
+      "ranking_denominator": "10",
+      "ranking_category": "attraction",
+      "ranking_subcategory": "#1 of 10 Outdoor Activities in Tetouan",
+      "subcategory_ranking": "#1 of 10 Outdoor Activities in Tetouan",
+      "ranking": "#1 of 10 Outdoor Activities in Tetouan",
+      "distance": "4.244606999306585",
+      "distance_string": "4.2 km",
+      "bearing": "north",
+      "rating": "5.0",
+      "is_closed": false,
+      "open_now_text": "Open Now",
+      "is_long_closed": false,
+      "description": "Tetouan Quad Discovery is rental agency of Quad, we offer you a great experience to discover the real beaty of tetouan, on brand new Quads. Now available in Tangier under the name Tanger Quad Tours. Managed by zakaria the owner. We offer the same 5 stars services in tangier by the same staff. Looking forward to seeing you there",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g295397-d12945636-Reviews-Tetouan_Quad_Discovery-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g295397-d12945636-Tetouan_Quad_Discovery-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Tetouan",
+          "abbrv": null,
+          "location_id": "295397"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "region",
+              "name": "Region"
+            }
+          ],
+          "name": "Tanger-Tetouan-Al Hoceima",
+          "abbrv": null,
+          "location_id": "2626788"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "Morocco",
+          "abbrv": null,
+          "location_id": "293730"
+        }
+      ],
+      "category": {
+        "key": "attraction",
+        "name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "key": "42",
+          "name": "Tours"
+        },
+        {
+          "key": "61",
+          "name": "Outdoor Activities"
+        }
+      ],
+      "parent_display_name": "Tetouan",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "phone": "+212 610-468462",
+      "website": "https://www.facebook.com/pg/TetouanQuaddiscovery",
+      "email": "tetouanquad@gmail.com",
+      "address_obj": {
+        "street1": "El Malaliyine",
+        "street2": null,
+        "city": "Tetouan",
+        "state": null,
+        "country": "Morocco",
+        "postalcode": "93000"
+      },
+      "address": "El Malaliyine, Tetouan 93000 Morocco",
+      "hours": {
+        "week_ranges": [
+          [
+            {
+              "open_time": 540,
+              "close_time": 1200
+            }
+          ],
+          [
+            {
+              "open_time": 540,
+              "close_time": 1200
+            }
+          ],
+          [
+            {
+              "open_time": 540,
+              "close_time": 1200
+            }
+          ],
+          [
+            {
+              "open_time": 540,
+              "close_time": 1200
+            }
+          ],
+          [
+            {
+              "open_time": 540,
+              "close_time": 1200
+            }
+          ],
+          [
+            {
+              "open_time": 540,
+              "close_time": 1200
+            }
+          ],
+          [
+            {
+              "open_time": 540,
+              "close_time": 1200
+            }
+          ]
+        ],
+        "timezone": "Africa/Casablanca"
+      },
+      "is_candidate_for_contact_info_suppression": false,
+      "subtype": [
+        {
+          "key": "186",
+          "name": "Gear Rentals"
+        },
+        {
+          "key": "211",
+          "name": "4WD, ATV & Off-Road Tours"
+        }
+      ]
+    },
+    {
+      "location_id": "12277923",
+      "name": "Tetouan Quad Xplorer",
+      "latitude": "35.626797",
+      "longitude": "-5.346732",
+      "num_reviews": "120",
+      "timezone": "Africa/Casablanca",
+      "location_string": "Tetouan, Tanger-Tetouan-Al Hoceima",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/12/c1/5f/0e/tetouan-quad-xplorer.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/12/c1/5f/0e/tetouan-quad-xplorer.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "686",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-o/12/c1/5f/0e/tetouan-quad-xplorer.jpg",
+            "height": "686"
+          },
+          "large": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-p/12/c1/5f/0e/tetouan-quad-xplorer.jpg",
+            "height": "550"
+          },
+          "medium": {
+            "width": "450",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/12/c1/5f/0e/tetouan-quad-xplorer.jpg",
+            "height": "450"
+          }
+        },
+        "is_blessed": true,
+        "uploaded_date": "2018-04-26T03:12:39-0400",
+        "caption": "Tetouan Quad Xplorer",
+        "id": "314662670",
+        "helpful_votes": "4",
+        "published_date": "2018-04-26T03:12:39-0400",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [
+        {
+          "award_type": "CERTIFICATE_OF_EXCELLENCE",
+          "year": "2021",
+          "images": {
+            "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
+            "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2021_en_US_large-0-5.jpg"
+          },
+          "categories": [],
+          "display_name": "Certificate of Excellence 2021"
+        },
+        {
+          "award_type": "CERTIFICATE_OF_EXCELLENCE",
+          "year": "2020",
+          "images": {
+            "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
+            "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2020_en_US_large-0-5.jpg"
+          },
+          "categories": [],
+          "display_name": "Certificate of Excellence 2020"
+        }
+      ],
+      "location_subtype": "tour_operator",
+      "doubleclick_zone": "af.morocco",
+      "preferred_map_engine": "default",
+      "raw_ranking": "4.371372699737549",
+      "ranking_geo": "Tetouan",
+      "ranking_geo_id": "295397",
+      "ranking_position": "1",
+      "ranking_denominator": "4",
+      "ranking_category": "attraction",
+      "ranking_subcategory": "#1 of 4 Boat Tours & Water Sports in Tetouan",
+      "subcategory_ranking": "#1 of 4 Boat Tours & Water Sports in Tetouan",
+      "ranking": "#1 of 4 Boat Tours & Water Sports in Tetouan",
+      "distance": "4.166930145879998",
+      "distance_string": "4.2 km",
+      "bearing": "north",
+      "rating": "5.0",
+      "is_closed": false,
+      "open_now_text": "Open Now",
+      "is_long_closed": false,
+      "description": "Excursions In Morocco invites you to discover a colorful Morocco rich in captivating and sunny landscapes during your stay, buy your excursions, tours and transfer at the tip of your fingers. We are all over Morocco and with 10 years experience.",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g295397-d12277923-Reviews-Tetouan_Quad_Xplorer-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g295397-d12277923-Tetouan_Quad_Xplorer-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Tetouan",
+          "abbrv": null,
+          "location_id": "295397"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "region",
+              "name": "Region"
+            }
+          ],
+          "name": "Tanger-Tetouan-Al Hoceima",
+          "abbrv": null,
+          "location_id": "2626788"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "Morocco",
+          "abbrv": null,
+          "location_id": "293730"
+        }
+      ],
+      "category": {
+        "key": "attraction",
+        "name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "key": "42",
+          "name": "Tours"
+        },
+        {
+          "key": "55",
+          "name": "Boat Tours & Water Sports"
+        },
+        {
+          "key": "61",
+          "name": "Outdoor Activities"
+        }
+      ],
+      "parent_display_name": "Tetouan",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "phone": "+212 661-802585",
+      "website": "http://www.facebook.com/tetouanquad/",
+      "email": "res@tamuda-overland.com",
+      "address_obj": {
+        "street1": "Malalyeen - Route De Ceute",
+        "street2": "Malalyeen",
+        "city": "Tetouan",
+        "state": null,
+        "country": "Morocco",
+        "postalcode": "93000"
+      },
+      "address": "Malalyeen - Route De Ceute Malalyeen, Tetouan 93000 Morocco",
+      "hours": {
+        "week_ranges": [
+          [
+            {
+              "open_time": 0,
+              "close_time": 1439
+            }
+          ],
+          [
+            {
+              "open_time": 0,
+              "close_time": 1439
+            }
+          ],
+          [
+            {
+              "open_time": 0,
+              "close_time": 1439
+            }
+          ],
+          [
+            {
+              "open_time": 0,
+              "close_time": 1439
+            }
+          ],
+          [
+            {
+              "open_time": 0,
+              "close_time": 1439
+            }
+          ],
+          [
+            {
+              "open_time": 0,
+              "close_time": 1439
+            }
+          ],
+          [
+            {
+              "open_time": 0,
+              "close_time": 1439
+            }
+          ]
+        ],
+        "timezone": "Africa/Casablanca"
+      },
+      "is_candidate_for_contact_info_suppression": false,
+      "subtype": [
+        {
+          "key": "211",
+          "name": "4WD, ATV & Off-Road Tours"
+        },
+        {
+          "key": "188",
+          "name": "Dolphin & Whale Watching"
+        },
+        {
+          "key": "225",
+          "name": "Cultural Tours"
+        },
+        {
+          "key": "167",
+          "name": "Boat Tours"
+        }
+      ],
+      "animal_welfare_tag": {
+        "tag_text": "Features Animals",
+        "msg_header": "This attraction features animals",
+        "msg_body": "Click below for expert advice on animal welfare in tourism.",
+        "learn_more_text": "Learn more",
+        "education_portal_url": "https://www.tripadvisor.com/blog/animal-welfare-education-portal/"
+      },
+      "tags": {
+        "animal_welfare_tag": {
+          "tag_text": "Features Animals",
+          "msg_header": "This attraction features animals",
+          "msg_body": "Click below for expert advice on animal welfare in tourism.",
+          "learn_more_text": "Learn more",
+          "education_portal_url": "https://www.tripadvisor.com/blog/animal-welfare-education-portal/"
+        }
+      }
+    },
+    {
+      "location_id": "7647471",
+      "name": "Green Olive Arts",
+      "latitude": "35.57739",
+      "longitude": "-5.343783",
+      "num_reviews": "13",
+      "timezone": "Africa/Casablanca",
+      "location_string": "Tetouan, Tanger-Tetouan-Al Hoceima",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/07/49/12/2b/green-olive-arts-artisans.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/07/49/12/2b/green-olive-arts-artisans.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "640",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-o/07/49/12/2b/green-olive-arts-artisans.jpg",
+            "height": "425"
+          },
+          "large": {
+            "width": "640",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-o/07/49/12/2b/green-olive-arts-artisans.jpg",
+            "height": "425"
+          },
+          "medium": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/07/49/12/2b/green-olive-arts-artisans.jpg",
+            "height": "365"
+          }
+        },
+        "is_blessed": true,
+        "uploaded_date": "2015-02-02T06:56:50-0500",
+        "caption": "Dar Senaa (Royal Artisan School) gallery",
+        "id": "122229291",
+        "helpful_votes": "5",
+        "published_date": "2015-02-12T09:34:45-0500",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [],
+      "location_subtype": "tour_operator",
+      "doubleclick_zone": "af.morocco",
+      "preferred_map_engine": "default",
+      "raw_ranking": "2.919451951980591",
+      "ranking_geo": "Tetouan",
+      "ranking_geo_id": "295397",
+      "ranking_position": "4",
+      "ranking_denominator": "13",
+      "ranking_category": "attraction",
+      "ranking_subcategory": "#4 of 13 Tours in Tetouan",
+      "subcategory_ranking": "#4 of 13 Tours in Tetouan",
+      "ranking": "#4 of 13 Tours in Tetouan",
+      "distance": "1.938554701041628",
+      "distance_string": "1.9 km",
+      "bearing": "southeast",
+      "rating": "5.0",
+      "is_closed": false,
+      "is_long_closed": false,
+      "description": "Artisans of Tetouan Workshop Visits by Green Olive Arts - You are invited to have a personal visit with some of Tetouan’s finest artisans in their workshops, with opportunity to learn from them about their tools, process and work. See them shape leather, wood, precious metals, wool, plaster, tile and other materials into beautifully handcrafted traditional art. More details on our website.",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g295397-d7647471-Reviews-Green_Olive_Arts-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g295397-d7647471-Green_Olive_Arts-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Tetouan",
+          "abbrv": null,
+          "location_id": "295397"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "region",
+              "name": "Region"
+            }
+          ],
+          "name": "Tanger-Tetouan-Al Hoceima",
+          "abbrv": null,
+          "location_id": "2626788"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "Morocco",
+          "abbrv": null,
+          "location_id": "293730"
+        }
+      ],
+      "category": {
+        "key": "attraction",
+        "name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "key": "42",
+          "name": "Tours"
+        }
+      ],
+      "parent_display_name": "Tetouan",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "phone": "+212 5397-01529",
+      "website": "http://greenolivearts.com/education/art-tour-artisans-tetouan/",
+      "email": "arthouse@greenolivearts.com",
+      "address_obj": {
+        "street1": "In front of old Medina gate, Bab al Okla",
+        "street2": null,
+        "city": "Tetouan",
+        "state": null,
+        "country": "Morocco",
+        "postalcode": "93000"
+      },
+      "address": "In front of old Medina gate, Bab al Okla, Tetouan 93000 Morocco",
+      "is_candidate_for_contact_info_suppression": false,
+      "subtype": [
+        {
+          "key": "183",
+          "name": "Walking Tours"
+        },
+        {
+          "key": "228",
+          "name": "Historical & Heritage Tours"
+        },
+        {
+          "key": "230",
+          "name": "Literary, Art & Music Tours"
+        },
+        {
+          "key": "225",
+          "name": "Cultural Tours"
+        },
+        {
+          "key": "235",
+          "name": "Private Tours"
+        }
+      ]
+    },
+    {
+      "location_id": "14084579",
+      "name": "Yasmine Overland",
+      "latitude": "35.59244",
+      "longitude": "-5.3395",
+      "num_reviews": "6",
+      "timezone": "Africa/Casablanca",
+      "location_string": "Tetouan, Tanger-Tetouan-Al Hoceima",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/1a/1a/a6/54/our-fleet.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/1a/1a/a6/54/our-fleet.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "1280",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-o/1a/1a/a6/54/our-fleet.jpg",
+            "height": "960"
+          },
+          "large": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/1a/1a/a6/54/our-fleet.jpg",
+            "height": "413"
+          },
+          "medium": {
+            "width": "250",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-f/1a/1a/a6/54/our-fleet.jpg",
+            "height": "188"
+          }
+        },
+        "is_blessed": true,
+        "uploaded_date": "2019-11-22T15:02:13-0500",
+        "caption": "Our Fleet",
+        "id": "437954132",
+        "helpful_votes": "0",
+        "published_date": "2019-11-22T15:02:13-0500",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [],
+      "location_subtype": "none",
+      "doubleclick_zone": "af.morocco",
+      "preferred_map_engine": "default",
+      "raw_ranking": "2.8589749336242676",
+      "ranking_geo": "Tetouan",
+      "ranking_geo_id": "295397",
+      "ranking_position": "1",
+      "ranking_denominator": "5",
+      "ranking_category": "attraction",
+      "ranking_subcategory": "#1 of 5 Transportation in Tetouan",
+      "subcategory_ranking": "#1 of 5 Transportation in Tetouan",
+      "ranking": "#1 of 5 Transportation in Tetouan",
+      "distance": "1.6809051953248213",
+      "distance_string": "1.7 km",
+      "bearing": "east",
+      "rating": "5.0",
+      "is_closed": false,
+      "open_now_text": "Open Now",
+      "is_long_closed": false,
+      "description": "Yasmine Overland offers a variety of service classes so you can choose the right vehicle to fit your needs. In every Yasmine Overland city, you can count on high-quality vehicles with professional and experienced drivers behind the wheel.",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g295397-d14084579-Reviews-Yasmine_Overland-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g295397-d14084579-Yasmine_Overland-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Tetouan",
+          "abbrv": null,
+          "location_id": "295397"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "region",
+              "name": "Region"
+            }
+          ],
+          "name": "Tanger-Tetouan-Al Hoceima",
+          "abbrv": null,
+          "location_id": "2626788"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "Morocco",
+          "abbrv": null,
+          "location_id": "293730"
+        }
+      ],
+      "category": {
+        "key": "attraction",
+        "name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "key": "59",
+          "name": "Transportation"
+        }
+      ],
+      "parent_display_name": "Tetouan",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "phone": "+212 661-802585",
+      "website": "http://www.yasmine-overland.com",
+      "email": "info@yasmine-overland.com",
+      "address_obj": {
+        "street1": null,
+        "street2": null,
+        "city": "Tetouan",
+        "state": null,
+        "country": "Morocco",
+        "postalcode": null
+      },
+      "address": "Tetouan Morocco",
+      "hours": {
+        "week_ranges": [
+          [
+            {
+              "open_time": 0,
+              "close_time": 1439
+            }
+          ],
+          [
+            {
+              "open_time": 0,
+              "close_time": 1439
+            }
+          ],
+          [
+            {
+              "open_time": 0,
+              "close_time": 1439
+            }
+          ],
+          [
+            {
+              "open_time": 0,
+              "close_time": 1439
+            }
+          ],
+          [
+            {
+              "open_time": 0,
+              "close_time": 1439
+            }
+          ],
+          [
+            {
+              "open_time": 0,
+              "close_time": 1439
+            }
+          ],
+          [
+            {
+              "open_time": 0,
+              "close_time": 1439
+            }
+          ]
+        ],
+        "timezone": "Africa/Casablanca"
+      },
+      "is_candidate_for_contact_info_suppression": false,
+      "subtype": [
+        {
+          "key": "182",
+          "name": "Taxis & Shuttles"
+        }
+      ]
+    },
+    {
+      "location_id": "23049130",
+      "name": "Off Road Quad Tetouan",
+      "latitude": "35.588898",
+      "longitude": "-5.362552",
+      "num_reviews": "4",
+      "timezone": "Africa/Casablanca",
+      "location_string": "Tetouan, Tanger-Tetouan-Al Hoceima",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "250",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-f/1c/cd/2e/af/6.jpg",
+            "height": "141"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/1c/cd/2e/af/6.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "1280",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/cd/2e/af/6.jpg",
+            "height": "720"
+          },
+          "large": {
+            "width": "1024",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-w/1c/cd/2e/af/6.jpg",
+            "height": "576"
+          },
+          "medium": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/1c/cd/2e/af/6.jpg",
+            "height": "309"
+          }
+        },
+        "is_blessed": true,
+        "uploaded_date": "2021-03-30T19:36:18-0400",
+        "caption": "6",
+        "id": "483208879",
+        "helpful_votes": "0",
+        "published_date": "2021-03-30T19:36:18-0400",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [],
+      "location_subtype": "tour_operator",
+      "doubleclick_zone": "af.morocco",
+      "preferred_map_engine": "default",
+      "raw_ranking": "2.8402576446533203",
+      "ranking_geo": "Tetouan",
+      "ranking_geo_id": "295397",
+      "ranking_position": "3",
+      "ranking_denominator": "10",
+      "ranking_category": "attraction",
+      "ranking_subcategory": "#3 of 10 Outdoor Activities in Tetouan",
+      "subcategory_ranking": "#3 of 10 Outdoor Activities in Tetouan",
+      "ranking": "#3 of 10 Outdoor Activities in Tetouan",
+      "distance": "0.45501588423889633",
+      "distance_string": "0.5 km",
+      "bearing": "southwest",
+      "rating": "5.0",
+      "is_closed": false,
+      "open_now_text": "Open Now",
+      "is_long_closed": false,
+      "description": "Off Road Quad Tetouan is a quad rental agency in the region of Tetouan and Tangier. Several tours are available. The best quad rental agency in the region.",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g295397-d23049130-Reviews-Off_Road_Quad_Tetouan-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g295397-d23049130-Off_Road_Quad_Tetouan-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Tetouan",
+          "abbrv": null,
+          "location_id": "295397"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "region",
+              "name": "Region"
+            }
+          ],
+          "name": "Tanger-Tetouan-Al Hoceima",
+          "abbrv": null,
+          "location_id": "2626788"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "Morocco",
+          "abbrv": null,
+          "location_id": "293730"
+        }
+      ],
+      "category": {
+        "key": "attraction",
+        "name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "key": "42",
+          "name": "Tours"
+        },
+        {
+          "key": "61",
+          "name": "Outdoor Activities"
+        }
+      ],
+      "parent_display_name": "Tetouan",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "phone": "+212 615-337062",
+      "website": "http://quadtetouan.com",
+      "email": "offroadtetouan@gmail.com",
+      "address_obj": {
+        "street1": "1240 Douar Mallalienne",
+        "street2": null,
+        "city": "Tetouan",
+        "state": null,
+        "country": "Morocco",
+        "postalcode": "93000"
+      },
+      "address": "1240 Douar Mallalienne, Tetouan 93000 Morocco",
+      "hours": {
+        "week_ranges": [
+          [
+            {
+              "open_time": 540,
+              "close_time": 1140
+            }
+          ],
+          [
+            {
+              "open_time": 540,
+              "close_time": 1140
+            }
+          ],
+          [
+            {
+              "open_time": 540,
+              "close_time": 1140
+            }
+          ],
+          [
+            {
+              "open_time": 540,
+              "close_time": 1140
+            }
+          ],
+          [
+            {
+              "open_time": 540,
+              "close_time": 1140
+            }
+          ],
+          [
+            {
+              "open_time": 540,
+              "close_time": 1140
+            }
+          ],
+          [
+            {
+              "open_time": 540,
+              "close_time": 1140
+            }
+          ]
+        ],
+        "timezone": "Africa/Casablanca"
+      },
+      "is_candidate_for_contact_info_suppression": false,
+      "subtype": [
+        {
+          "key": "211",
+          "name": "4WD, ATV & Off-Road Tours"
+        },
+        {
+          "key": "186",
+          "name": "Gear Rentals"
+        }
+      ]
+    },
+    {
+      "location_id": "19087871",
+      "name": "Hammam Torgan Hommes",
+      "latitude": "35.565826",
+      "longitude": "-5.360555",
+      "num_reviews": "4",
+      "timezone": "Africa/Casablanca",
+      "location_string": "Tetouan, Tanger-Tetouan-Al Hoceima",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/1d/81/9a/6c/caption.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/1d/81/9a/6c/caption.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "1536",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-o/1d/81/9a/6c/caption.jpg",
+            "height": "2048"
+          },
+          "large": {
+            "width": "338",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/1d/81/9a/6c/caption.jpg",
+            "height": "450"
+          },
+          "medium": {
+            "width": "154",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-f/1d/81/9a/6c/caption.jpg",
+            "height": "205"
+          }
+        },
+        "is_blessed": false,
+        "uploaded_date": "2021-08-03T10:57:40-0400",
+        "caption": "",
+        "id": "495032940",
+        "helpful_votes": "0",
+        "published_date": "2021-08-03T10:57:40-0400",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [],
+      "location_subtype": "none",
+      "doubleclick_zone": "af.morocco",
+      "preferred_map_engine": "default",
+      "raw_ranking": "2.805565595626831",
+      "ranking_geo": "Tetouan",
+      "ranking_geo_id": "295397",
+      "ranking_position": "1",
+      "ranking_denominator": "2",
+      "ranking_category": "attraction",
+      "ranking_subcategory": "#1 of 2 Spas & Wellness in Tetouan",
+      "subcategory_ranking": "#1 of 2 Spas & Wellness in Tetouan",
+      "ranking": "#1 of 2 Spas & Wellness in Tetouan",
+      "distance": "2.753876710823047",
+      "distance_string": "2.8 km",
+      "bearing": "south",
+      "rating": "4.5",
+      "is_closed": false,
+      "is_long_closed": false,
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g295397-d19087871-Reviews-Hammam_Torgan_Hommes-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g295397-d19087871-Hammam_Torgan_Hommes-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Tetouan",
+          "abbrv": null,
+          "location_id": "295397"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "region",
+              "name": "Region"
+            }
+          ],
+          "name": "Tanger-Tetouan-Al Hoceima",
+          "abbrv": null,
+          "location_id": "2626788"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "Morocco",
+          "abbrv": null,
+          "location_id": "293730"
+        }
+      ],
+      "category": {
+        "key": "attraction",
+        "name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "key": "40",
+          "name": "Spas & Wellness"
+        }
+      ],
+      "parent_display_name": "Tetouan",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "phone": "+212 623-171624",
+      "website": "https://www.facebook.com/hamamtorganhommes/",
+      "address_obj": {
+        "street1": "Hjar Laaroussa N20 Route De Sebta Pres De Hotel",
+        "street2": null,
+        "city": "Tetouan",
+        "state": null,
+        "country": "Morocco",
+        "postalcode": "93000"
+      },
+      "address": "Hjar Laaroussa N20 Route De Sebta Pres De Hotel, Tetouan 93000 Morocco",
+      "is_candidate_for_contact_info_suppression": false,
+      "subtype": [
+        {
+          "key": "127",
+          "name": "Spas"
+        }
+      ]
+    },
+    {
+      "location_id": "295397",
+      "ad_position": "inline2",
+      "ad_size": "8X8",
+      "doubleclick_zone": "af.morocco",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "region",
+              "name": "Region"
+            }
+          ],
+          "name": "Tanger-Tetouan-Al Hoceima",
+          "abbrv": null,
+          "location_id": "2626788"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "Morocco",
+          "abbrv": null,
+          "location_id": "293730"
+        }
+      ],
+      "detail": "0",
+      "page_type": "attractions",
+      "mob_ptype": "app_attractions"
+    },
+    {
+      "location_id": "20367655",
+      "name": "Marrakech Viajes del desierto baratos a Marruecos",
+      "latitude": "35.58402",
+      "longitude": "-5.342247",
+      "num_reviews": "2",
+      "timezone": "Africa/Casablanca",
+      "location_string": "Tetouan, Tanger-Tetouan-Al Hoceima",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/1b/3a/09/ec/marruecos-baratos-viajes.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/1b/3a/09/ec/marruecos-baratos-viajes.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "640",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-o/1b/3a/09/ec/marruecos-baratos-viajes.jpg",
+            "height": "640"
+          },
+          "large": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-p/1b/3a/09/ec/marruecos-baratos-viajes.jpg",
+            "height": "550"
+          },
+          "medium": {
+            "width": "450",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/1b/3a/09/ec/marruecos-baratos-viajes.jpg",
+            "height": "450"
+          }
+        },
+        "is_blessed": false,
+        "uploaded_date": "2020-04-01T18:38:40-0400",
+        "caption": "Marruecos baratos viajes desde Marrakech salida Tangér y sahara desierto",
+        "id": "456788460",
+        "helpful_votes": "1",
+        "published_date": "2020-04-01T18:38:40-0400",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [],
+      "location_subtype": "none",
+      "doubleclick_zone": "af.morocco",
+      "preferred_map_engine": "default",
+      "raw_ranking": "2.797328472137451",
+      "ranking_geo": "Tetouan",
+      "ranking_geo_id": "295397",
+      "ranking_position": "10",
+      "ranking_denominator": "13",
+      "ranking_category": "attraction",
+      "ranking_subcategory": "#10 of 13 things to do in Tetouan",
+      "subcategory_ranking": "#10 of 13 things to do in Tetouan",
+      "ranking": "#10 of 13 things to do in Tetouan",
+      "distance": "1.589838660432194",
+      "distance_string": "1.6 km",
+      "bearing": "southeast",
+      "rating": "5.0",
+      "is_closed": false,
+      "open_now_text": "Open Now",
+      "is_long_closed": false,
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g295397-d20367655-Reviews-Marrakech_Viajes_del_desierto_baratos_a_Marruecos-Tetouan_Tanger_Tetouan_Al_Hoce.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g295397-d20367655-Marrakech_Viajes_del_desierto_baratos_a_Marruecos-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Tetouan",
+          "abbrv": null,
+          "location_id": "295397"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "region",
+              "name": "Region"
+            }
+          ],
+          "name": "Tanger-Tetouan-Al Hoceima",
+          "abbrv": null,
+          "location_id": "2626788"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "Morocco",
+          "abbrv": null,
+          "location_id": "293730"
+        }
+      ],
+      "category": {
+        "key": "attraction",
+        "name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "key": "47",
+          "name": "Sights & Landmarks"
+        }
+      ],
+      "parent_display_name": "Tetouan",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "phone": "+212 613-405439",
+      "website": "http://www.viajesbaratosamarruecos.es",
+      "address_obj": {
+        "street1": "Avenue Al joulane , app 15",
+        "street2": null,
+        "city": "Tetouan",
+        "state": null,
+        "country": "Morocco",
+        "postalcode": "27000"
+      },
+      "address": "Avenue Al joulane , app 15, Tetouan 27000 Morocco",
+      "hours": {
+        "week_ranges": [
+          [],
+          [
+            {
+              "open_time": 0,
+              "close_time": 1439
+            }
+          ],
+          [
+            {
+              "open_time": 0,
+              "close_time": 1439
+            }
+          ],
+          [
+            {
+              "open_time": 0,
+              "close_time": 1439
+            }
+          ],
+          [
+            {
+              "open_time": 0,
+              "close_time": 1439
+            }
+          ],
+          [
+            {
+              "open_time": 0,
+              "close_time": 1439
+            }
+          ],
+          [
+            {
+              "open_time": 0,
+              "close_time": 1439
+            }
+          ]
+        ],
+        "timezone": "Africa/Casablanca"
+      },
+      "is_candidate_for_contact_info_suppression": false,
+      "subtype": [
+        {
+          "key": "163",
+          "name": "Points of Interest & Landmarks"
+        },
+        {
+          "key": "6",
+          "name": "Castles"
+        },
+        {
+          "key": "175",
+          "name": "Churches & Cathedrals"
+        }
+      ]
+    },
+    {
+      "location_id": "23942593",
+      "name": "Loukach Museum Of Religious Heritage",
+      "latitude": "35.57138",
+      "longitude": "-5.368035",
+      "num_reviews": "1",
+      "timezone": "Africa/Casablanca",
+      "location_string": "Tetouan, Tanger-Tetouan-Al Hoceima",
+      "awards": [],
+      "location_subtype": "none",
+      "doubleclick_zone": "af.morocco",
+      "preferred_map_engine": "default",
+      "raw_ranking": "2.770979166030884",
+      "ranking_geo": "Tetouan",
+      "ranking_geo_id": "295397",
+      "ranking_position": "12",
+      "ranking_denominator": "13",
+      "ranking_category": "attraction",
+      "ranking_subcategory": "#12 of 13 things to do in Tetouan",
+      "subcategory_ranking": "#12 of 13 things to do in Tetouan",
+      "ranking": "#12 of 13 things to do in Tetouan",
+      "distance": "2.3143274000511447",
+      "distance_string": "2.3 km",
+      "bearing": "southwest",
+      "rating": "5.0",
+      "is_closed": false,
+      "is_long_closed": false,
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g295397-d23942593-Reviews-Loukach_Museum_Of_Religious_Heritage-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g295397-d23942593-Loukach_Museum_Of_Religious_Heritage-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Tetouan",
+          "abbrv": null,
+          "location_id": "295397"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "region",
+              "name": "Region"
+            }
+          ],
+          "name": "Tanger-Tetouan-Al Hoceima",
+          "abbrv": null,
+          "location_id": "2626788"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "Morocco",
+          "abbrv": null,
+          "location_id": "293730"
+        }
+      ],
+      "category": {
+        "key": "attraction",
+        "name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "key": "49",
+          "name": "Museums"
+        }
+      ],
+      "parent_display_name": "Tetouan",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "website": "http://www.archnet.org/sites/20529",
+      "address_obj": {
+        "street1": "Mosquee Loukach",
+        "street2": null,
+        "city": "Tetouan",
+        "state": null,
+        "country": "Morocco",
+        "postalcode": null
+      },
+      "address": "Mosquee Loukach, Tetouan Morocco",
+      "is_candidate_for_contact_info_suppression": false,
+      "subtype": [
+        {
+          "key": "161",
+          "name": "Specialty Museums"
+        }
+      ]
+    },
+    {
+      "location_id": "19712347",
+      "name": "Aventours Tetouan Tamuda bay",
+      "latitude": "35.57136",
+      "longitude": "-5.38301",
+      "num_reviews": "1",
+      "timezone": "Africa/Casablanca",
+      "location_string": "Tetouan, Tanger-Tetouan-Al Hoceima",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/1a/b2/75/a2/caption.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/1a/b2/75/a2/caption.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "1280",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1a/b2/75/a2/caption.jpg",
+            "height": "853"
+          },
+          "large": {
+            "width": "1024",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-w/1a/b2/75/a2/caption.jpg",
+            "height": "683"
+          },
+          "medium": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/1a/b2/75/a2/caption.jpg",
+            "height": "367"
+          }
+        },
+        "is_blessed": true,
+        "uploaded_date": "2020-01-24T20:21:05-0500",
+        "caption": "",
+        "id": "447903138",
+        "helpful_votes": "0",
+        "published_date": "2020-01-24T20:21:05-0500",
+        "user": null
+      },
+      "awards": [],
+      "location_subtype": "tour_operator",
+      "doubleclick_zone": "af.morocco",
+      "preferred_map_engine": "default",
+      "raw_ranking": "2.7618768215179443",
+      "ranking_geo": "Tetouan",
+      "ranking_geo_id": "295397",
+      "ranking_position": "2",
+      "ranking_denominator": "4",
+      "ranking_category": "attraction",
+      "ranking_subcategory": "#2 of 4 Food & Drink in Tetouan",
+      "subcategory_ranking": "#2 of 4 Food & Drink in Tetouan",
+      "ranking": "#2 of 4 Food & Drink in Tetouan",
+      "distance": "3.1121900507480005",
+      "distance_string": "3.1 km",
+      "bearing": "southwest",
+      "rating": "5.0",
+      "is_closed": false,
+      "open_now_text": "Open Now",
+      "is_long_closed": false,
+      "description": " we are a team of professional drivers who specializes in providing sight seeing tours for discerning tourists within Morocco. The company was established with the aim of becoming one of the most unique touring companies in Morocco, offering a comfortable and enjoyable experience to our customers.We provide tours throughout the Kingdom of Morocco and we look forward to welcoming you.\n\n",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g295397-d19712347-Reviews-Aventours_Tetouan_Tamuda_bay-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g295397-d19712347-Aventours_Tetouan_Tamuda_bay-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Tetouan",
+          "abbrv": null,
+          "location_id": "295397"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "region",
+              "name": "Region"
+            }
+          ],
+          "name": "Tanger-Tetouan-Al Hoceima",
+          "abbrv": null,
+          "location_id": "2626788"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "Morocco",
+          "abbrv": null,
+          "location_id": "293730"
+        }
+      ],
+      "category": {
+        "key": "attraction",
+        "name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "key": "26",
+          "name": "Shopping"
+        },
+        {
+          "key": "36",
+          "name": "Food & Drink"
+        },
+        {
+          "key": "42",
+          "name": "Tours"
+        },
+        {
+          "key": "51",
+          "name": "Other"
+        },
+        {
+          "key": "55",
+          "name": "Boat Tours & Water Sports"
+        },
+        {
+          "key": "59",
+          "name": "Transportation"
+        },
+        {
+          "key": "61",
+          "name": "Outdoor Activities"
+        }
+      ],
+      "parent_display_name": "Tetouan",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "machine_translated": true,
+      "translation_vendor": "google",
+      "phone": "+212 633-641500",
+      "website": "http://www.aventoursmorocco.com",
+      "email": "aventoursmorocco@gmail.com",
+      "address_obj": {
+        "street1": "Avenue des FAR Tetouan",
+        "street2": "Avenue des FAR Tétouan",
+        "city": "Tetouan",
+        "state": null,
+        "country": "Morocco",
+        "postalcode": "93040"
+      },
+      "address": "Avenue des FAR Tetouan Avenue des FAR Tétouan, Tetouan 93040 Morocco",
+      "hours": {
+        "week_ranges": [
+          [],
+          [
+            {
+              "open_time": 510,
+              "close_time": 990
+            }
+          ],
+          [
+            {
+              "open_time": 510,
+              "close_time": 990
+            }
+          ],
+          [
+            {
+              "open_time": 510,
+              "close_time": 990
+            }
+          ],
+          [
+            {
+              "open_time": 510,
+              "close_time": 990
+            }
+          ],
+          [
+            {
+              "open_time": 480,
+              "close_time": 660
+            }
+          ],
+          [
+            {
+              "open_time": 480,
+              "close_time": 720
+            }
+          ]
+        ],
+        "timezone": "Africa/Casablanca"
+      },
+      "is_candidate_for_contact_info_suppression": false,
+      "subtype": [
+        {
+          "key": "193",
+          "name": "River Rafting & Tubing"
+        },
+        {
+          "key": "194",
+          "name": "Scuba & Snorkeling"
+        },
+        {
+          "key": "196",
+          "name": "Submarine Tours"
+        },
+        {
+          "key": "139",
+          "name": "Sightseeing Tours"
+        },
+        {
+          "key": "204",
+          "name": "Food Tours"
+        },
+        {
+          "key": "269",
+          "name": "Photography Tours"
+        },
+        {
+          "key": "141",
+          "name": "Factory Tours"
+        },
+        {
+          "key": "274",
+          "name": "Distillery Tours"
+        },
+        {
+          "key": "211",
+          "name": "4WD, ATV & Off-Road Tours"
+        },
+        {
+          "key": "212",
+          "name": "Adrenaline & Extreme Tours"
+        },
+        {
+          "key": "216",
+          "name": "Eco Tours"
+        },
+        {
+          "key": "219",
+          "name": "Hiking & Camping Tours"
+        },
+        {
+          "key": "220",
+          "name": "Nature & Wildlife Tours"
+        },
+        {
+          "key": "287",
+          "name": "Day Trips"
+        },
+        {
+          "key": "223",
+          "name": "Archaeology Tours"
+        },
+        {
+          "key": "288",
+          "name": "Multi-day Tours"
+        },
+        {
+          "key": "224",
+          "name": "City Tours"
+        },
+        {
+          "key": "225",
+          "name": "Cultural Tours"
+        },
+        {
+          "key": "228",
+          "name": "Historical & Heritage Tours"
+        },
+        {
+          "key": "229",
+          "name": "Hop-On Hop-Off Tours"
+        },
+        {
+          "key": "167",
+          "name": "Boat Tours"
+        },
+        {
+          "key": "232",
+          "name": "Movie & TV Tours"
+        },
+        {
+          "key": "233",
+          "name": "Night Tours"
+        },
+        {
+          "key": "235",
+          "name": "Private Tours"
+        },
+        {
+          "key": "237",
+          "name": "Self-Guided Tours & Rentals"
+        },
+        {
+          "key": "241",
+          "name": "Fashion Shows & Tours"
+        },
+        {
+          "key": "242",
+          "name": "Shopping Tours"
+        },
+        {
+          "key": "182",
+          "name": "Taxis & Shuttles"
+        },
+        {
+          "key": "183",
+          "name": "Walking Tours"
+        },
+        {
+          "key": "187",
+          "name": "Boat Rentals"
+        },
+        {
+          "key": "190",
+          "name": "Speed Boats Tours"
+        },
+        {
+          "key": "191",
+          "name": "Kayaking & Canoeing"
+        }
+      ],
+      "booking": {
+        "provider": "Viator",
+        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FTetouan%2FPrivate-transfer-from-Tetouan-to-Asilah%2Fd50439-211899P17%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=e29b11491c5663a0b&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=19712347&clt=TM&from=api&nt=true"
+      },
+      "offer_group": {
+        "lowest_price": "$56.63",
+        "offer_list": [
+          {
+            "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FTetouan%2FPrivate-transfer-from-Tetouan-to-Asilah%2Fd50439-211899P17%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=e29b11491c5663a0b&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=19712347&clt=TM&from=api&nt=true",
+            "price": "$63.28",
+            "rounded_up_price": "$64",
+            "offer_type": "",
+            "title": " Private transfer from Tetouan to Asilah",
+            "product_code": "211899P17",
+            "partner": "Viator",
+            "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/09/f6/14/27.jpg",
+            "description": null,
+            "primary_category": "Airport & Ground Transfers"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FTangier%2FTransfer-Private-Form-Tetouan-To-Airport-Casablanca%2Fd4388-211899P21%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=ddf09747c75cb8bb2&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=19712347&clt=TM&from=api&nt=true",
+            "price": "$190.06",
+            "rounded_up_price": "$191",
+            "offer_type": "",
+            "title": "Transfer Private Form Tetouan To Airport Casablanca",
+            "product_code": "211899P21",
+            "partner": "Viator",
+            "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0a/39/1c/d9.jpg",
+            "description": null,
+            "primary_category": "Airport & Ground Transfers"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FTetouan%2FTransfer-privet-form-Tetouan-To-Chefchaouen%2Fd50439-211899P14%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=1fef3699aa61db9a2&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=19712347&clt=TM&from=api&nt=true",
+            "price": "$59.03",
+            "rounded_up_price": "$60",
+            "offer_type": "",
+            "title": "Transfer Private Form Tetouan To Chefchaouen",
+            "product_code": "211899P14",
+            "partner": "Viator",
+            "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0a/2d/c9/e4.jpg",
+            "description": null,
+            "primary_category": "Bus Services"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FNorthern-Morocco%2FDiscover-Quad-Aventours%2Fd22137-211899P66%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=b4f597ff666e474ad&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=19712347&clt=TM&from=api&nt=true",
+            "price": "$88.52",
+            "rounded_up_price": "$89",
+            "offer_type": "",
+            "title": " Discover Quad Aventours",
+            "product_code": "211899P66",
+            "partner": "Viator",
+            "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0a/59/d3/5b.jpg",
+            "description": null,
+            "primary_category": "Self-guided Tours & Rentals"
+          },
+          {
+            "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FTetouan%2FPrivate-transfer-from-Tetouan-to-Rabat%2Fd50439-211899P18%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=749ff7e3a309a0fa1&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=19712347&clt=TM&from=api&nt=true",
+            "price": "$181.21",
+            "rounded_up_price": "$182",
+            "offer_type": "",
+            "title": " Private transfer from Tetouan to Rabat",
+            "product_code": "211899P18",
+            "partner": "Viator",
+            "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0a/2e/90/2a.jpg",
+            "description": null,
+            "primary_category": "Airport & Ground Transfers"
+          }
+        ],
+        "has_see_all_url": true,
+        "is_eligible_for_ap_list": true
+      },
+      "animal_welfare_tag": {
+        "tag_text": "Features Animals",
+        "msg_header": "This attraction features animals",
+        "msg_body": "Click below for expert advice on animal welfare in tourism.",
+        "learn_more_text": "Learn more",
+        "education_portal_url": "https://www.tripadvisor.com/blog/animal-welfare-education-portal/"
+      },
+      "tags": {
+        "animal_welfare_tag": {
+          "tag_text": "Features Animals",
+          "msg_header": "This attraction features animals",
+          "msg_body": "Click below for expert advice on animal welfare in tourism.",
+          "learn_more_text": "Learn more",
+          "education_portal_url": "https://www.tripadvisor.com/blog/animal-welfare-education-portal/"
+        }
+      }
+    },
+    {
+      "location_id": "8536593",
+      "name": "Fit Line Spa Center",
+      "latitude": "35.58932",
+      "longitude": "-5.34366",
+      "num_reviews": "4",
+      "timezone": "Africa/Casablanca",
+      "location_string": "Tetouan, Tanger-Tetouan-Al Hoceima",
+      "awards": [],
+      "location_subtype": "none",
+      "doubleclick_zone": "af.morocco",
+      "preferred_map_engine": "default",
+      "raw_ranking": "2.742250442504883",
+      "ranking_geo": "Tetouan",
+      "ranking_geo_id": "295397",
+      "ranking_position": "2",
+      "ranking_denominator": "2",
+      "ranking_category": "attraction",
+      "ranking_subcategory": "#2 of 2 Spas & Wellness in Tetouan",
+      "subcategory_ranking": "#2 of 2 Spas & Wellness in Tetouan",
+      "ranking": "#2 of 2 Spas & Wellness in Tetouan",
+      "distance": "1.2965577619916155",
+      "distance_string": "1.3 km",
+      "bearing": "east",
+      "rating": "3.5",
+      "is_closed": false,
+      "is_long_closed": false,
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g295397-d8536593-Reviews-Fit_Line_Spa_Center-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g295397-d8536593-Fit_Line_Spa_Center-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Tetouan",
+          "abbrv": null,
+          "location_id": "295397"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "region",
+              "name": "Region"
+            }
+          ],
+          "name": "Tanger-Tetouan-Al Hoceima",
+          "abbrv": null,
+          "location_id": "2626788"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "Morocco",
+          "abbrv": null,
+          "location_id": "293730"
+        }
+      ],
+      "category": {
+        "key": "attraction",
+        "name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "key": "40",
+          "name": "Spas & Wellness"
+        }
+      ],
+      "parent_display_name": "Tetouan",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "phone": "+212 5399-93626",
+      "address_obj": {
+        "street1": "Av. Allal El Fassi - Rue 3",
+        "street2": "Im. Ben Hssain",
+        "city": "Tetouan",
+        "state": null,
+        "country": "Morocco",
+        "postalcode": null
+      },
+      "address": "Av. Allal El Fassi - Rue 3 Im. Ben Hssain, Tetouan Morocco",
+      "is_candidate_for_contact_info_suppression": false,
+      "subtype": [
+        {
+          "key": "250",
+          "name": "Hammams & Turkish Baths"
+        },
+        {
+          "key": "127",
+          "name": "Spas"
+        }
+      ]
+    },
+    {
+      "location_id": "15550512",
+      "name": "Kiddy Park",
+      "latitude": "35.57744",
+      "longitude": "-5.347277",
+      "num_reviews": "0",
+      "timezone": "Africa/Casablanca",
+      "location_string": "Tetouan, Tanger-Tetouan-Al Hoceima",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/17/1e/30/a1/kiddy-park.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/17/1e/30/a1/kiddy-park.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "1277",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-o/17/1e/30/a1/kiddy-park.jpg",
+            "height": "658"
+          },
+          "large": {
+            "width": "1024",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-w/17/1e/30/a1/kiddy-park.jpg",
+            "height": "528"
+          },
+          "medium": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/17/1e/30/a1/kiddy-park.jpg",
+            "height": "283"
+          }
+        },
+        "is_blessed": true,
+        "uploaded_date": "2019-04-11T07:10:29-0400",
+        "caption": "Kiddy park",
+        "id": "387854497",
+        "helpful_votes": "0",
+        "published_date": "2019-04-11T07:10:29-0400",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [],
+      "location_subtype": "none",
+      "doubleclick_zone": "af.morocco",
+      "preferred_map_engine": "default",
+      "distance": "1.7415135221882538",
+      "distance_string": "1.7 km",
+      "bearing": "southeast",
+      "is_closed": false,
+      "is_long_closed": false,
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g295397-d15550512-Reviews-Kiddy_Park-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g295397-d15550512-Kiddy_Park-Tetouan_Tanger_Tetouan_Al_Hoceima.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Tetouan",
+          "abbrv": null,
+          "location_id": "295397"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "region",
+              "name": "Region"
+            }
+          ],
+          "name": "Tanger-Tetouan-Al Hoceima",
+          "abbrv": null,
+          "location_id": "2626788"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "Morocco",
+          "abbrv": null,
+          "location_id": "293730"
+        }
+      ],
+      "category": {
+        "key": "attraction",
+        "name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "key": "56",
+          "name": "Fun & Games"
+        }
+      ],
+      "parent_display_name": "Tetouan",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "phone": "+212 661-560307",
+      "website": "https://www.facebook.com/kiddyparktetouan/",
+      "address_obj": {
+        "street1": "Av Tahran (Teknia)",
+        "street2": null,
+        "city": "Tetouan",
+        "state": null,
+        "country": "Morocco",
+        "postalcode": "93040"
+      },
+      "address": "Av Tahran (Teknia), Tetouan 93040 Morocco",
+      "is_candidate_for_contact_info_suppression": false,
+      "subtype": [
+        {
+          "key": "110",
+          "name": "Game & Entertainment Centers"
+        }
+      ]
+    }
+  ],
+  "filters": {
+    "distance": {
+      "0.0": {
+        "count": "38",
+        "label": "Any Distance",
+        "priority": "0",
+        "selected": true
+      },
+      "25.0": {
+        "count": "19",
+        "label": "25 mi",
+        "priority": "6",
+        "selected": false
+      },
+      "1.0": {
+        "count": "19",
+        "label": "1 mi",
+        "priority": "2",
+        "selected": false
+      },
+      "2.0": {
+        "count": "19",
+        "label": "2 mi",
+        "priority": "3",
+        "selected": false
+      },
+      "0.3": {
+        "count": "19",
+        "label": "0.3 mi",
+        "priority": "1",
+        "selected": false
+      },
+      "10.0": {
+        "count": "19",
+        "label": "10 mi",
+        "priority": "5",
+        "selected": false
+      },
+      "5.0": {
+        "count": "19",
+        "label": "5 mi",
+        "priority": "4",
+        "selected": false
+      }
+    },
+    "subtype": {
+      "0": {
+        "count": "19",
+        "label": "All",
+        "selected": true
+      },
+      "1": {
+        "count": "1",
+        "label": "Art Galleries",
+        "parent_id": "49",
+        "selected": false
+      },
+      "6": {
+        "count": "1",
+        "label": "Castles",
+        "parent_id": "47",
+        "selected": false
+      },
+      "7": {
+        "count": "1",
+        "label": "Cemeteries",
+        "parent_id": "47",
+        "selected": false
+      },
+      "10": {
+        "count": "1",
+        "label": "Sacred & Religious Sites",
+        "parent_id": "47",
+        "selected": false
+      },
+      "17": {
+        "count": "1",
+        "label": "Historic Sites",
+        "parent_id": "47",
+        "selected": false
+      },
+      "28": {
+        "count": "1",
+        "label": "Art Museums",
+        "parent_id": "49",
+        "selected": false
+      },
+      "30": {
+        "count": "2",
+        "label": "History Museums",
+        "parent_id": "49",
+        "selected": false
+      },
+      "110": {
+        "count": "1",
+        "label": "Game & Entertainment Centers",
+        "parent_id": "56",
+        "selected": false
+      },
+      "127": {
+        "count": "2",
+        "label": "Spas",
+        "parent_id": "40",
+        "selected": false
+      },
+      "139": {
+        "count": "1",
+        "label": "Sightseeing Tours",
+        "parent_id": "42",
+        "selected": false
+      },
+      "141": {
+        "count": "1",
+        "label": "Factory Tours",
+        "parent_id": "42",
+        "selected": false
+      },
+      "143": {
+        "count": "1",
+        "label": "Shopping Malls",
+        "parent_id": "26",
+        "selected": false
+      },
+      "161": {
+        "count": "3",
+        "label": "Specialty Museums",
+        "parent_id": "49",
+        "selected": false
+      },
+      "163": {
+        "count": "3",
+        "label": "Points of Interest & Landmarks",
+        "parent_id": "47",
+        "selected": false
+      },
+      "167": {
+        "count": "2",
+        "label": "Boat Tours",
+        "parent_id": "61",
+        "selected": false
+      },
+      "175": {
+        "count": "1",
+        "label": "Churches & Cathedrals",
+        "parent_id": "47",
+        "selected": false
+      },
+      "182": {
+        "count": "2",
+        "label": "Taxis & Shuttles",
+        "parent_id": "59",
+        "selected": false
+      },
+      "183": {
+        "count": "2",
+        "label": "Walking Tours",
+        "parent_id": "42",
+        "selected": false
+      },
+      "186": {
+        "count": "2",
+        "label": "Gear Rentals",
+        "parent_id": "61",
+        "selected": false
+      },
+      "187": {
+        "count": "1",
+        "label": "Boat Rentals",
+        "parent_id": "61",
+        "selected": false
+      },
+      "188": {
+        "count": "1",
+        "label": "Dolphin & Whale Watching",
+        "parent_id": "61",
+        "selected": false
+      },
+      "190": {
+        "count": "1",
+        "label": "Speed Boats Tours",
+        "parent_id": "61",
+        "selected": false
+      },
+      "191": {
+        "count": "1",
+        "label": "Kayaking & Canoeing",
+        "parent_id": "61",
+        "selected": false
+      },
+      "193": {
+        "count": "1",
+        "label": "River Rafting & Tubing",
+        "parent_id": "61",
+        "selected": false
+      },
+      "194": {
+        "count": "1",
+        "label": "Scuba & Snorkeling",
+        "parent_id": "61",
+        "selected": false
+      },
+      "196": {
+        "count": "1",
+        "label": "Submarine Tours",
+        "parent_id": "61",
+        "selected": false
+      },
+      "204": {
+        "count": "1",
+        "label": "Food Tours",
+        "parent_id": "42",
+        "selected": false
+      },
+      "211": {
+        "count": "4",
+        "label": "4WD, ATV & Off-Road Tours",
+        "parent_id": "61",
+        "selected": false
+      },
+      "212": {
+        "count": "1",
+        "label": "Adrenaline & Extreme Tours",
+        "parent_id": "61",
+        "selected": false
+      },
+      "216": {
+        "count": "1",
+        "label": "Eco Tours",
+        "parent_id": "61",
+        "selected": false
+      },
+      "219": {
+        "count": "1",
+        "label": "Hiking & Camping Tours",
+        "parent_id": "61",
+        "selected": false
+      },
+      "220": {
+        "count": "1",
+        "label": "Nature & Wildlife Tours",
+        "parent_id": "61",
+        "selected": false
+      },
+      "223": {
+        "count": "1",
+        "label": "Archaeology Tours",
+        "parent_id": "42",
+        "selected": false
+      },
+      "224": {
+        "count": "1",
+        "label": "City Tours",
+        "parent_id": "42",
+        "selected": false
+      },
+      "225": {
+        "count": "3",
+        "label": "Cultural Tours",
+        "parent_id": "42",
+        "selected": false
+      },
+      "228": {
+        "count": "2",
+        "label": "Historical & Heritage Tours",
+        "parent_id": "42",
+        "selected": false
+      },
+      "229": {
+        "count": "1",
+        "label": "Hop-On Hop-Off Tours",
+        "parent_id": "42",
+        "selected": false
+      },
+      "230": {
+        "count": "1",
+        "label": "Literary, Art & Music Tours",
+        "parent_id": "42",
+        "selected": false
+      },
+      "232": {
+        "count": "1",
+        "label": "Movie & TV Tours",
+        "parent_id": "42",
+        "selected": false
+      },
+      "233": {
+        "count": "1",
+        "label": "Night Tours",
+        "parent_id": "42",
+        "selected": false
+      },
+      "235": {
+        "count": "2",
+        "label": "Private Tours",
+        "parent_id": "42",
+        "selected": false
+      },
+      "237": {
+        "count": "1",
+        "label": "Self-Guided Tours & Rentals",
+        "parent_id": "42",
+        "selected": false
+      },
+      "241": {
+        "count": "1",
+        "label": "Fashion Shows & Tours",
+        "parent_id": "42",
+        "selected": false
+      },
+      "242": {
+        "count": "1",
+        "label": "Shopping Tours",
+        "parent_id": "42",
+        "selected": false
+      },
+      "250": {
+        "count": "1",
+        "label": "Hammams & Turkish Baths",
+        "parent_id": "40",
+        "selected": false
+      },
+      "269": {
+        "count": "1",
+        "label": "Photography Tours",
+        "parent_id": "42",
+        "selected": false
+      },
+      "274": {
+        "count": "1",
+        "label": "Distillery Tours",
+        "parent_id": "42",
+        "selected": false
+      },
+      "287": {
+        "count": "1",
+        "label": "Day Trips",
+        "parent_id": "42",
+        "selected": false
+      },
+      "288": {
+        "count": "1",
+        "label": "Multi-day Tours",
+        "parent_id": "42",
+        "selected": false
+      }
+    },
+    "min_rating": {
+      "3": {
+        "count": "18",
+        "label": "3",
+        "selected": false
+      },
+      "4": {
+        "count": "16",
+        "label": "4",
+        "selected": false
+      },
+      "5": {
+        "count": "10",
+        "label": "5",
+        "selected": false
+      }
+    },
+    "rating": {
+      "1": {
+        "count": "0",
+        "label": "Terrible",
+        "selected": false
+      },
+      "2": {
+        "count": "0",
+        "label": "Poor",
+        "selected": false
+      },
+      "3": {
+        "count": "2",
+        "label": "Average",
+        "selected": false
+      },
+      "4": {
+        "count": "6",
+        "label": "Very Good",
+        "selected": false
+      },
+      "5": {
+        "count": "10",
+        "label": "Excellent",
+        "selected": false
+      },
+      "all": {
+        "count": "19",
+        "label": "All",
+        "selected": true
+      }
+    },
+    "subcategory": {
+      "0": {
+        "count": "19",
+        "label": "All",
+        "locale_independent_label": "All",
+        "selected": true
+      },
+      "26": {
+        "count": "3",
+        "label": "Shopping",
+        "locale_independent_label": "Shopping",
+        "selected": false
+      },
+      "36": {
+        "count": "1",
+        "label": "Food & Drink",
+        "locale_independent_label": "Food & Drink",
+        "selected": false
+      },
+      "40": {
+        "count": "2",
+        "label": "Spas & Wellness",
+        "locale_independent_label": "Spas & Wellness",
+        "selected": false
+      },
+      "42": {
+        "count": "5",
+        "label": "Tours",
+        "locale_independent_label": "Tours",
+        "selected": false
+      },
+      "47": {
+        "count": "4",
+        "label": "Sights & Landmarks",
+        "locale_independent_label": "Sights & Landmarks",
+        "selected": false
+      },
+      "49": {
+        "count": "5",
+        "label": "Museums",
+        "locale_independent_label": "Museums",
+        "selected": false
+      },
+      "55": {
+        "count": "2",
+        "label": "Boat Tours & Water Sports",
+        "locale_independent_label": "Boat Tours & Water Sports",
+        "selected": false
+      },
+      "56": {
+        "count": "1",
+        "label": "Fun & Games",
+        "locale_independent_label": "Fun & Games",
+        "selected": false
+      },
+      "59": {
+        "count": "2",
+        "label": "Transportation",
+        "locale_independent_label": "Transportation",
+        "selected": false
+      },
+      "61": {
+        "count": "4",
+        "label": "Outdoor Activities",
+        "locale_independent_label": "Outdoor Activities",
+        "selected": false
+      }
+    },
+    "typeahead_tag": {
+      "11292": {
+        "count": "2",
+        "label": "Free Entry",
+        "locale_independent_label": "Free",
+        "selected": false
+      },
+      "11295": {
+        "count": "5",
+        "label": "Good for a Rainy Day",
+        "locale_independent_label": "Rainy Day",
+        "selected": false
+      },
+      "11306": {
+        "count": "2",
+        "label": "Good for Kids",
+        "locale_independent_label": "Family (young children)",
+        "selected": false
+      },
+      "11309": {
+        "count": "5",
+        "label": "Budget-friendly",
+        "locale_independent_label": "Thrifty Traveler",
+        "selected": false
+      },
+      "12169": {
+        "count": "2",
+        "label": "Good for Couples",
+        "locale_independent_label": "Good for couples",
+        "selected": false
+      },
+      "12170": {
+        "count": "3",
+        "label": "Good for Big Groups",
+        "locale_independent_label": "Good for big groups",
+        "selected": false
+      }
+    },
+    "exclude_locations": {
+      "filtered": {
+        "count": "19",
+        "label": "Results filtered"
+      },
+      "all": {
+        "count": "19",
+        "label": "All"
+      }
+    }
+  },
+  "filters_v2": {
+    "search_filters": [],
+    "filter_sections": [
+      {
+        "label": "Sort by",
+        "section_id": "sort",
+        "filter_groups": [
+          {
+            "type": "single_select",
+            "key": "sort",
+            "tracking_key": "sort",
+            "label": "Sort by",
+            "options": [
+              {
+                "label": "Traveler Favorites",
+                "value": "ml_score",
+                "selected": true,
+                "default": true,
+                "single_select": true
+              },
+              {
+                "label": "Traveler Ranked",
+                "value": "ranking",
+                "selected": false,
+                "default": false,
+                "single_select": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Minimum Traveler Rating",
+        "section_id": "min_rating",
+        "filter_groups": [
+          {
+            "type": "single_select",
+            "key": "min_rating",
+            "tracking_key": "rating",
+            "label": "Minimum Traveler Rating",
+            "options": [
+              {
+                "label": "3",
+                "value": "3",
+                "selected": false,
+                "count": "18",
+                "default": false
+              },
+              {
+                "label": "4",
+                "value": "4",
+                "selected": false,
+                "count": "16",
+                "default": false
+              },
+              {
+                "label": "5",
+                "value": "5",
+                "selected": false,
+                "count": "10",
+                "default": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Attraction Category",
+        "section_id": "subcategory",
+        "filter_groups": [
+          {
+            "type": "single_select",
+            "key": "subcategory",
+            "tracking_key": "category",
+            "label": "Attraction Category",
+            "options": [
+              {
+                "label": "All",
+                "value": "0",
+                "selected": true,
+                "count": "19",
+                "default": true,
+                "single_select": true
+              },
+              {
+                "label": "Boat Tours & Water Sports",
+                "value": "55",
+                "selected": false,
+                "count": "2",
+                "default": false,
+                "single_select": false
+              },
+              {
+                "label": "Fun & Games",
+                "value": "56",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false
+              },
+              {
+                "label": "Sights & Landmarks",
+                "value": "47",
+                "selected": false,
+                "count": "4",
+                "default": false,
+                "single_select": false
+              },
+              {
+                "label": "Food & Drink",
+                "value": "36",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false
+              },
+              {
+                "label": "Transportation",
+                "value": "59",
+                "selected": false,
+                "count": "2",
+                "default": false,
+                "single_select": false
+              },
+              {
+                "label": "Shopping",
+                "value": "26",
+                "selected": false,
+                "count": "3",
+                "default": false,
+                "single_select": false
+              },
+              {
+                "label": "Museums",
+                "value": "49",
+                "selected": false,
+                "count": "5",
+                "default": false,
+                "single_select": false
+              },
+              {
+                "label": "Outdoor Activities",
+                "value": "61",
+                "selected": false,
+                "count": "4",
+                "default": false,
+                "single_select": false
+              },
+              {
+                "label": "Spas & Wellness",
+                "value": "40",
+                "selected": false,
+                "count": "2",
+                "default": false,
+                "single_select": false
+              },
+              {
+                "label": "Tours",
+                "value": "42",
+                "selected": false,
+                "count": "5",
+                "default": false,
+                "single_select": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Attraction Type",
+        "section_id": "subtype",
+        "parent_section_id": "subcategory",
+        "filter_groups": [
+          {
+            "type": "multi_select",
+            "key": "subtype",
+            "tracking_key": "type",
+            "label": "Attraction Type",
+            "options": [
+              {
+                "label": "Speed Boats Tours",
+                "value": "190",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "61"
+              },
+              {
+                "label": "Kayaking & Canoeing",
+                "value": "191",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "61"
+              },
+              {
+                "label": "River Rafting & Tubing",
+                "value": "193",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "61"
+              },
+              {
+                "label": "Scuba & Snorkeling",
+                "value": "194",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "61"
+              },
+              {
+                "label": "Submarine Tours",
+                "value": "196",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "61"
+              },
+              {
+                "label": "Distillery Tours",
+                "value": "274",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "42"
+              },
+              {
+                "label": "Literary, Art & Music Tours",
+                "value": "230",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "42"
+              },
+              {
+                "label": "Game & Entertainment Centers",
+                "value": "110",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "56"
+              },
+              {
+                "label": "Movie & TV Tours",
+                "value": "232",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "42"
+              },
+              {
+                "label": "Night Tours",
+                "value": "233",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "42"
+              },
+              {
+                "label": "Private Tours",
+                "value": "235",
+                "selected": false,
+                "count": "2",
+                "default": false,
+                "single_select": false,
+                "parent_id": "42"
+              },
+              {
+                "label": "Self-Guided Tours & Rentals",
+                "value": "237",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "42"
+              },
+              {
+                "label": "Sacred & Religious Sites",
+                "value": "10",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "47"
+              },
+              {
+                "label": "Historic Sites",
+                "value": "17",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "47"
+              },
+              {
+                "label": "Specialty Museums",
+                "value": "161",
+                "selected": false,
+                "count": "3",
+                "default": false,
+                "single_select": false,
+                "parent_id": "49"
+              },
+              {
+                "label": "Points of Interest & Landmarks",
+                "value": "163",
+                "selected": false,
+                "count": "3",
+                "default": false,
+                "single_select": false,
+                "parent_id": "47"
+              },
+              {
+                "label": "Fashion Shows & Tours",
+                "value": "241",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "42"
+              },
+              {
+                "label": "All",
+                "value": "0",
+                "selected": true,
+                "count": "19",
+                "default": true,
+                "single_select": true
+              },
+              {
+                "label": "Shopping Tours",
+                "value": "242",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "42"
+              },
+              {
+                "label": "Art Galleries",
+                "value": "1",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "49"
+              },
+              {
+                "label": "Day Trips",
+                "value": "287",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "42"
+              },
+              {
+                "label": "Boat Tours",
+                "value": "167",
+                "selected": false,
+                "count": "2",
+                "default": false,
+                "single_select": false,
+                "parent_id": "61"
+              },
+              {
+                "label": "Multi-day Tours",
+                "value": "288",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "42"
+              },
+              {
+                "label": "Spas",
+                "value": "127",
+                "selected": false,
+                "count": "2",
+                "default": false,
+                "single_select": false,
+                "parent_id": "40"
+              },
+              {
+                "label": "Castles",
+                "value": "6",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "47"
+              },
+              {
+                "label": "Food Tours",
+                "value": "204",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "42"
+              },
+              {
+                "label": "Cemeteries",
+                "value": "7",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "47"
+              },
+              {
+                "label": "Art Museums",
+                "value": "28",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "49"
+              },
+              {
+                "label": "Hammams & Turkish Baths",
+                "value": "250",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "40"
+              },
+              {
+                "label": "Churches & Cathedrals",
+                "value": "175",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "47"
+              },
+              {
+                "label": "4WD, ATV & Off-Road Tours",
+                "value": "211",
+                "selected": false,
+                "count": "4",
+                "default": false,
+                "single_select": false,
+                "parent_id": "61"
+              },
+              {
+                "label": "Adrenaline & Extreme Tours",
+                "value": "212",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "61"
+              },
+              {
+                "label": "Eco Tours",
+                "value": "216",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "61"
+              },
+              {
+                "label": "Sightseeing Tours",
+                "value": "139",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "42"
+              },
+              {
+                "label": "Hiking & Camping Tours",
+                "value": "219",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "61"
+              },
+              {
+                "label": "History Museums",
+                "value": "30",
+                "selected": false,
+                "count": "2",
+                "default": false,
+                "single_select": false,
+                "parent_id": "49"
+              },
+              {
+                "label": "Taxis & Shuttles",
+                "value": "182",
+                "selected": false,
+                "count": "2",
+                "default": false,
+                "single_select": false,
+                "parent_id": "59"
+              },
+              {
+                "label": "Walking Tours",
+                "value": "183",
+                "selected": false,
+                "count": "2",
+                "default": false,
+                "single_select": false,
+                "parent_id": "42"
+              },
+              {
+                "label": "Factory Tours",
+                "value": "141",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "42"
+              },
+              {
+                "label": "Gear Rentals",
+                "value": "186",
+                "selected": false,
+                "count": "2",
+                "default": false,
+                "single_select": false,
+                "parent_id": "61"
+              },
+              {
+                "label": "Boat Rentals",
+                "value": "187",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "61"
+              },
+              {
+                "label": "Nature & Wildlife Tours",
+                "value": "220",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "61"
+              },
+              {
+                "label": "Shopping Malls",
+                "value": "143",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "26"
+              },
+              {
+                "label": "Dolphin & Whale Watching",
+                "value": "188",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "61"
+              },
+              {
+                "label": "Archaeology Tours",
+                "value": "223",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "42"
+              },
+              {
+                "label": "City Tours",
+                "value": "224",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "42"
+              },
+              {
+                "label": "Cultural Tours",
+                "value": "225",
+                "selected": false,
+                "count": "3",
+                "default": false,
+                "single_select": false,
+                "parent_id": "42"
+              },
+              {
+                "label": "Photography Tours",
+                "value": "269",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "42"
+              },
+              {
+                "label": "Historical & Heritage Tours",
+                "value": "228",
+                "selected": false,
+                "count": "2",
+                "default": false,
+                "single_select": false,
+                "parent_id": "42"
+              },
+              {
+                "label": "Hop-On Hop-Off Tours",
+                "value": "229",
+                "selected": false,
+                "count": "1",
+                "default": false,
+                "single_select": false,
+                "parent_id": "42"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "",
+        "section_id": "bookable_first",
+        "filter_groups": [
+          {
+            "type": "single_select",
+            "key": "bookable_first",
+            "tracking_key": "onlinebookable",
+            "label": "Book online first",
+            "options": [
+              {
+                "label": "Book online first",
+                "value": "true",
+                "selected": false,
+                "count": "1",
+                "default": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "sort": ""
+    }
+  },
+  "paging": {
+    "results": "19",
+    "total_results": "19"
+  }
+}
