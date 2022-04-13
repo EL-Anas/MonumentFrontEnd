@@ -1,11 +1,20 @@
 import React, { useState,useEffect } from 'react';
 import Header from "./components/Header/Header";
 import MapLeaf from "./components/Map/map";
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, MapConsumer, useMap, useMapEvent} from 'react-leaflet';
 import getPlacesData from "./api/Data" ;
 import "./App.css";
 import data from "./api/Fez";
 
+
+function MyMap() {
+  const map = useMapEvent('dragend', () => {
+    console.log('map center:', map.getBounds())
+  })
+  //const map = useMap()
+  //console.log('map center:', map.getBounds())
+  return null
+}
 
 function App() {
 
@@ -20,9 +29,6 @@ function App() {
     
   }, []);
 
-  // useEffect(() => {
-  //   console.log(this.refs.map.leafletElement.getBounds());
-  // })
 
 
 
@@ -36,6 +42,7 @@ function App() {
       attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
     />
+    <MyMap></MyMap>
    
     {
     
