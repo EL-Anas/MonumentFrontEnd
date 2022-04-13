@@ -14,10 +14,15 @@ function App() {
   
 
   useEffect(() => {
-    getPlacesData().then(data=> console.log(data))
-    //getPlacesData().then(data=> setPlaces(data.filter((item)=> item.latitude && item.longitude)))
+
+    //getPlacesData().then(data=> console.log(data))
+    getPlacesData().then(data=> setPlaces(data.filter((item)=> item.latitude && item.longitude)))
     
   }, []);
+
+  // useEffect(() => {
+  //   console.log(this.refs.map.leafletElement.getBounds());
+  // })
 
 
 
@@ -25,6 +30,7 @@ function App() {
 
   return (
     <div id="map">
+      <button onClick={()=>{getPlacesData().then(data=> console.log(data))}}>test</button>
     <MapContainer center={[35, -5]} zoom={13}>
     <TileLayer
       attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
