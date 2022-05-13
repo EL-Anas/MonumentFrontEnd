@@ -1,0 +1,20 @@
+.Card{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: transparent;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+}
+.divM{
+    background:rgb(241, 240, 240);
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+}
