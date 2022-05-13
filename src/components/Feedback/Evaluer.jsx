@@ -33,7 +33,7 @@ var myHeaders = new Headers();
     redirect: 'follow'
 };
 console.log(evaluation)
-fetch("http://10.72.176.246:8080/evaluation/add?monumentId="+props.idMonument, requestOptions)
+fetch("http://localhost:8080/evaluation/add?monumentId="+props.idMonument, requestOptions)
 .then(handleClose)
 
 }
