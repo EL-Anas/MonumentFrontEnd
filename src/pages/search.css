@@ -1,0 +1,24 @@
+.mCard {
+    margin: 10px;
+}
+.cardsContainer {
+    margin: auto;
+    margin-right: 0;
+    overflow-y: scroll;
+    height: 100%;
+}
+.container {
+    padding: 20px;
+}
+.result {
+    display: flex;
+    height: 500px;
+}
+
+.map {
+    width: 50%;
+}
+.leaflet-container {
+    width: 100%;
+    height: 100%;
+}
