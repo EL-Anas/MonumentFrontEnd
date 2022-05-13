@@ -8,10 +8,11 @@ import Imageslider from './components/MonumentDetail/Imageslider';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Evaluer from './components/Feedback/Evaluer';
 import ListEval from './components/Feedback/listEval';
+import Testfooter from './components/Footer/footer';
 
 ReactDOM.render(
   <>
-    <App/>
+    <footer/>
     </>
   ,
   document.getElementById('root')
