@@ -7,6 +7,7 @@ import { MapContainer, TileLayer, Marker, Popup, MapConsumer, useMap, useMapEven
 import { useState, useEffect } from "react";
 import MapLeaf from "../components/Map/map";
 import { SetMealSharp } from "@mui/icons-material";
+import { useSearchParams } from "react-router-dom";
 
 
 
@@ -16,6 +17,8 @@ const Home = () => {
   const [monumentName, setMonumentName] = useState("");
   const [position, setPosition] = useState({ lat: 34, lng: -5 });
   const [map, setMap] = useState(null);
+  const [searchParams] = useSearchParams();
+
 
   const getMonuments =()=>{
     let link = 'http://localhost:8080/search?motClets='+encodeURIComponent(motcle.split(" ").join(","));
@@ -33,6 +36,7 @@ const Home = () => {
 
   }
   useEffect(() => {
+    setMotcle(searchParams.get('motCle'));
     getMonuments();
   },[]);
 
@@ -113,7 +117,7 @@ const Home = () => {
     <div class="cardsContainer">
         {monuments.map((monument) => 
         <div class="mCard">
-            <MonumentCard longitude={monument.coordinate.longitude} latitude={monument.coordinate.latitude} nom={monument.nom} description={monument.description} image={getImage(monument.liensImage)} onChose={setMonument}/>
+            <MonumentCard longitude={monument.coordinate.longitude} latitude={monument.coordinate.latitude} nom={monument.nom} description={monument.description} image={getImage(monument.liensImage)} onChose={setMonument} id={monument.id}/>
         </div>
 
         )}

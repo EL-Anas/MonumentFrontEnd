@@ -4,9 +4,15 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
+import { Link , createSearchParams} from 'react-router-dom';
 
 
 export default function MonumentCard(props) {
+  let title = "?id="+props.nom;
+
+  const params = { id: props.id };
+
+
   return (
     <Card sx={{ display: 'flex' , maxWidth: 900, maxHeight: 150 }}>
       <CardActionArea sx= {{display: 'flex', justifyContent: 'flex-start'}} onClick={() => props.onChose(props.nom,props.latitude,props.longitude)}>
@@ -28,10 +34,14 @@ export default function MonumentCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
+        <Link to={{
+        pathname: "/monument",
+        search: `?${createSearchParams(params)}`,
+        }}>
         <Button size="small" color="primary">
           Details
         </Button>
-        
+        </Link>
       </CardActions>
     </Card>
   );
