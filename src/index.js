@@ -12,7 +12,8 @@ import Testfooter from './components/Footer/footer';
 
 ReactDOM.render(
   <>
-    <footer/>
+    <App/>
+    <Testfooter/>
     </>
   ,
   document.getElementById('root')

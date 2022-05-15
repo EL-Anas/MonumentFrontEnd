@@ -1,10 +1,13 @@
 #mainSearch {
     margin-inline: auto;
     max-width: 800px;
+    margin-bottom: 100px;
 }
 #logo {
     margin-top: 140px;
     margin-bottom: 30px;
     margin-inline: auto;
     max-width: 500px;
+    
 }
+
