@@ -15,7 +15,7 @@ import SignUp from './components/Signup/SignUp';
 ReactDOM.render(
   <>
       <Router>
-    <SignUp/>
+    <App/>
       </Router>
     </>
   ,

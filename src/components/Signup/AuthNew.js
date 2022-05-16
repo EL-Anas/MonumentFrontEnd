@@ -1,4 +1,4 @@
-const AuthNew = async (email, password) => {
+const AuthNew = async (email, password,nom,prenom) => {
     const link = 'http://localhost:8080/newuser?email='+encodeURIComponent(email)+'&password='+encodeURIComponent(password)+'&nom='+encodeURIComponent(nom)+'&prenom='+encodeURIComponent(prenom);
     const requestOptions = {
         method: 'POST',

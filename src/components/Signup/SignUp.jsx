@@ -43,7 +43,7 @@ const SignUp = () => {
         return field!=="";
       return true;
     }
-    const handlePasswordValidation=(field)=>{
+    const handleEmptyValidation=(field)=>{
       if(submit)
         return field!=="";
       return true;
@@ -73,7 +73,7 @@ const SignUp = () => {
               <LockOutlinedIcon />
             </Avatar>
             <Typography component="h1" variant="h5">
-              Sign up
+              S'inscrire
             </Typography>
             <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
               <Grid container spacing={2}>
@@ -86,6 +86,7 @@ const SignUp = () => {
                     id="firstName"
                     label="First Name"
                     autoFocus
+                    
                   />
                 </Grid>
                 <Grid item xs={12} sm={6}>
@@ -132,12 +133,12 @@ const SignUp = () => {
                 variant="contained"
                 sx={{ mt: 3, mb: 2 }}
               >
-                Sign Up
+                S'inscrir
               </Button>
               <Grid container justifyContent="flex-end">
                 <Grid item>
-                  <Link href="#" variant="body2">
-                    Already have an account? Sign in
+                  <Link href="/login" variant="body2">
+                    Déja inscrit? Connectez-vous
                   </Link>
                 </Grid>
               </Grid>
