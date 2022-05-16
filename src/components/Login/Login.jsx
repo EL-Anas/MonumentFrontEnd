@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 
 import Avatar from '@mui/material/Avatar';
+import Alert from '@mui/material/Alert';
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
 import TextField from '@mui/material/TextField';
@@ -15,6 +16,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import logo from '../../ressources/logo.webp';
+import Auth from './Auth';
 
 function Copyright(props) {
   return (
@@ -35,24 +37,22 @@ const Login = () => {
     const[email,setEmail]=useState("");
     const[password,setPassword]=useState("");
     const[submit,setSubmit]=useState(false);
+    const[token,setToken]=useState("");
     const handleEmailValidation=(field)=>{
       if(submit)
-        return field!=="";
+        return field!==""&&token!=="fail";
       return true;
     }
     const handlePasswordValidation=(field)=>{
       if(submit)
-        return field!=="";
+        return field!==""&&token!=="fail";
       return true;
   }
     const handleSubmit = (event) => {
     setSubmit(true);
     event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    console.log({
-      email: data.get('email'),
-      password: data.get('password'),
-    });
+    Auth(email,password).then((token)=>{setToken(token); console.log(token)});
+    
   };
     return (
             <ThemeProvider theme={theme}>
@@ -111,6 +111,7 @@ const Login = () => {
                 onChange={(event) =>setPassword(event.target.value)}
                 error={!handlePasswordValidation(password)}
               />
+              {token==="fail"&&<Alert variant="filled" severity="error">Mot de passe ou email incorrect!</Alert>}
               <Button
                 type="submit"
                 fullWidth
