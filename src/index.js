@@ -15,11 +15,7 @@ import SignUp from './components/Signup/SignUp';
 ReactDOM.render(
   <>
       <Router>
-<<<<<<< HEAD
     <SignUp/>
-=======
-    <App/>
->>>>>>> 7ea003cfbfd0304683d931482aba734c5da1ee79
       </Router>
     </>
   ,

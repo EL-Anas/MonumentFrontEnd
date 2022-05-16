@@ -54,11 +54,16 @@ const SignUp = () => {
   };
     return (
     <ThemeProvider theme={theme}>
-        <Container component="main" maxWidth="xs" >
+        <Container component="main" maxWidth="xs"  sx= {{
+          backgroundColor: 'white',
+          padding: 4,
+          marginTop: 4,
+          marginBottom: 4,
+          borderRadius: 2,
+        }}>
           <CssBaseline />
           <Box
             sx={{
-              marginTop: 8,
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
