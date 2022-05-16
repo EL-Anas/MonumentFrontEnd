@@ -21,9 +21,9 @@ function App() {
 
   return (
     <div>
-      <TopBar/>
         
       <Router>
+      <TopBar/>
         <Routes>
           <Route exact path='/' element={<Home/>}></Route>
           <Route exact path='/search' element={<SearchPage/>}></Route>
@@ -31,8 +31,8 @@ function App() {
           {/* <Route exact path='/about' element={< About />}></Route> */}
           {/* <Route exact path='/contact' element={< Contact />}></Route> */}
         </Routes>
-      </Router>
     <Testfooter/>
+      </Router>
     </div>
   );
 }
