@@ -10,11 +10,12 @@ import Evaluer from './components/Feedback/Evaluer';
 import ListEval from './components/Feedback/listEval';
 import {BrowserRouter as Router} from 'react-router-dom';
 import Login from './components/Login/Login';
+import SignUp from './components/Signup/SignUp';
 
 ReactDOM.render(
   <>
       <Router>
-    <Login/>
+    <SignUp/>
       </Router>
     </>
   ,
