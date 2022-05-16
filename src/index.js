@@ -14,7 +14,7 @@ import Login from './components/Login/Login';
 ReactDOM.render(
   <>
       <Router>
-    <Login/>
+    <App/>
       </Router>
     </>
   ,
