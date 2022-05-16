@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
@@ -32,7 +32,21 @@ function Copyright(props) {
 const theme = createTheme();
 
 const Login = () => {
+    const[email,setEmail]=useState("");
+    const[password,setPassword]=useState("");
+    const[submit,setSubmit]=useState(false);
+    const handleEmailValidation=(field)=>{
+      if(submit)
+        return field!=="";
+      return true;
+    }
+    const handlePasswordValidation=(field)=>{
+      if(submit)
+        return field!=="";
+      return true;
+  }
     const handleSubmit = (event) => {
+    setSubmit(true);
     event.preventDefault();
     const data = new FormData(event.currentTarget);
     console.log({
@@ -82,6 +96,8 @@ const Login = () => {
                 name="email"
                 autoComplete="email"
                 autoFocus
+                onChange={(event) =>setEmail(event.target.value)}
+                error={!handleEmailValidation(email)}
               />
               <TextField
                 margin="normal"
@@ -92,10 +108,8 @@ const Login = () => {
                 type="password"
                 id="password"
                 autoComplete="current-password"
-              />
-              <FormControlLabel
-                control={<Checkbox value="remember" color="primary" />}
-                label="Remember me"
+                onChange={(event) =>setPassword(event.target.value)}
+                error={!handlePasswordValidation(password)}
               />
               <Button
                 type="submit"
@@ -103,17 +117,14 @@ const Login = () => {
                 variant="contained"
                 sx={{ mt: 3, mb: 2 }}
               >
-                Sign In
+                Se connecter
               </Button>
               <Grid container>
                 <Grid item xs>
-                  <Link href="#" variant="body2">
-                    Forgot password?
-                  </Link>
                 </Grid>
                 <Grid item>
                   <Link href="#" variant="body2">
-                    {"Don't have an account? Sign Up"}
+                    {"Pas de compte? Inscrivez-vous"}
                   </Link>
                 </Grid>
               </Grid>
