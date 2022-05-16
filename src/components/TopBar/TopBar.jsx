@@ -17,7 +17,9 @@ const TopBar = () => {
           </Link>
           </div>
           <div id="login">
+          <Link to="/login">
               <Button variant="contained" >Connexion</Button>
+          </Link>
           </div>
         </div>
     );
