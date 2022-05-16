@@ -8,10 +8,13 @@ import Imageslider from './components/MonumentDetail/Imageslider';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Evaluer from './components/Feedback/Evaluer';
 import ListEval from './components/Feedback/listEval';
+import {BrowserRouter as Router} from 'react-router-dom';
 
 ReactDOM.render(
   <>
+      <Router>
     <App/>
+      </Router>
     </>
   ,
   document.getElementById('root')

@@ -16,23 +16,31 @@ import Monumentinfo from './components/MonumentDetail/Monumentinfo';
 
 import Testfooter from './components/Footer/footer';
 
+import Login from './components/Login/Login';
+import { useLocation } from 'react-router-dom';
+
+
 function App() {
 
+    const location = useLocation();
+    const path = location.pathname;
+    const notAuth = path !== '/login';
+  
+    
 
   return (
     <div>
         
-      <Router>
-      <TopBar/>
+      {notAuth &&<TopBar/>}
         <Routes>
           <Route exact path='/' element={<Home/>}></Route>
           <Route exact path='/search' element={<SearchPage/>}></Route>
           <Route exact path='/monument/:id' element={<Monumentinfo/>}></Route>
+          <Route exact path='/login' element={<Login/>}></Route>
           {/* <Route exact path='/about' element={< About />}></Route> */}
           {/* <Route exact path='/contact' element={< Contact />}></Route> */}
         </Routes>
-    <Testfooter/>
-      </Router>
+    {notAuth &&<Testfooter/>}
     </div>
   );
 }
