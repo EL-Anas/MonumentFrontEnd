@@ -3,7 +3,7 @@ import React from "react";
 import { useState } from "react";
 import { Button, TextField } from "@mui/material";
 import './home.css';
-import logo from '../ressources/logo-extend.webp';
+import logo from '../ressources/logo-extendv3.webp';
 import { useNavigate, createSearchParams } from "react-router-dom";
 
 

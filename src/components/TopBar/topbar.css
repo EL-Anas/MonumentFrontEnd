@@ -6,6 +6,8 @@
 }
 #topbar {
   display: flex;
+  background-color: white;
+  padding-bottom: 6px;
 }
 #homebutton {
   margin-top: 10px;

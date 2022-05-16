@@ -12,7 +12,9 @@ import Home from './pages/Home';
 import { Button } from '@mui/material';
 import logo from './ressources/logo.webp';
 import TopBar from './components/TopBar/TopBar';
+import Monumentinfo from './components/MonumentDetail/Monumentinfo';
 
+import Testfooter from './components/Footer/footer';
 
 function App() {
 
@@ -25,11 +27,12 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Home/>}></Route>
           <Route exact path='/search' element={<SearchPage/>}></Route>
-          <Route exact path='/monument/:id' element={<SearchPage/>}></Route>
+          <Route exact path='/monument/:id' element={<Monumentinfo/>}></Route>
           {/* <Route exact path='/about' element={< About />}></Route> */}
           {/* <Route exact path='/contact' element={< Contact />}></Route> */}
         </Routes>
       </Router>
+    <Testfooter/>
     </div>
   );
 }

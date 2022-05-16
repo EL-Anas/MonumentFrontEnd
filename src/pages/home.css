@@ -2,12 +2,20 @@
     margin-inline: auto;
     max-width: 800px;
     margin-bottom: 100px;
+    background-color: white;
+    border-radius: 6px;
 }
 #logo {
-    margin-top: 140px;
     margin-bottom: 30px;
     margin-inline: auto;
     max-width: 500px;
     
 }
-
+#home {
+    height: 600px;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 140px;
+}
