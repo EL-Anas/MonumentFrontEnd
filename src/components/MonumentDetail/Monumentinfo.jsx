@@ -43,6 +43,14 @@ export default function Monumentinfo(props) {
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
+
+  const getUserId = () => {
+    if (GetToken() == null || GetToken() == 'fail')
+      return -1;
+    return GetToken().split("_")[0];
+  }
+
+
   useEffect (() => {
 
     var requestOptions = {
@@ -52,7 +60,7 @@ export default function Monumentinfo(props) {
 
     fetch("http://localhost:8080/monument?id=" +id, requestOptions)
       .then((response) => response.json())
-      .then((data) => {setMonument(data);setNom(data.nom);setDesc(data.description);setVille(data.ville);setImage(data.liensImage);setEval(data.evaluations);console.log(data)});}
+      .then((data) => {setMonument(data);setNom(data.nom);setDesc(data.description);setVille(data.ville);setImage(data.liensImage);setEval(data.evaluations);});}
       ,[monument])
   return (
       <div className="divM">
@@ -69,7 +77,7 @@ export default function Monumentinfo(props) {
       </CardContent>
       <CardActions disableSpacing>
         <IconButton aria-label="add to favorites">
-          <Evaluer idMonument={id} id={GetToken().split("_")[0]} />
+          <Evaluer idMonument={id} id={getUserId()} />
         </IconButton>
         <DeletMonument idMonument={id}></DeletMonument>
 
