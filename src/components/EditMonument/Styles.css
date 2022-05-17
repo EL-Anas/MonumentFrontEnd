@@ -1,0 +1,10 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin : 50px;
+    padding : 20px ;
+    border-radius: 5px;
+    opacity : 0.95 ;
+  }
+  
