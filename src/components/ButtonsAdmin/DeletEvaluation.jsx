@@ -11,7 +11,7 @@ import IconButton from '@mui/material/IconButton';
 
 
 
-export default function DeletMonument(props) {
+export default function DeleteEvaluation(props) {
     //props: idEvalue et nomEvaluateur
     const navigate = useNavigate();
     const handleDelete = () => {
@@ -21,20 +21,17 @@ export default function DeletMonument(props) {
         var requestOptions = {
             method: 'POST',
             headers: myHeaders,
-            body: {"monumentId":props.idMonument} ,
+            body: {"evaluationId":props.id} ,
             redirect: 'follow'
         };
-        fetch("http://localhost:8080/monument/delete?monumentId="+props.idMonument, requestOptions)
-        .then(alert("Monument Supprimer")).then(navigate("/"))
-        
+        fetch("http://localhost:8080/evaluation/delete?evaluationId="+props.id, requestOptions);
+        alert("Evaluation Supprimer")
  
     }
 
     return (
-        <>
-            <Button style={{textTransform: 'none'}} variant="contained" startIcon={<DeleteIcon />} onClick={handleDelete}>
-                Supprimer
-            </Button>
-        </>
+        <IconButton style={{margin: "auto"}} aria-label="delete" size="big" onClick={handleDelete}>
+            <DeleteIcon fontSize="inherit" />
+        </IconButton>
     );
 }

@@ -60,13 +60,11 @@ fetch("http://localhost:8080/evaluation/add?monumentId="+props.idMonument, reque
             setValue(newValue);
         }}
         />
-            <Form.Group onChange={(e) => setNom(e.target.value)}
-              className="mb-3"
-              controlId="exampleForm.ControlText"
-            >
+            <Form.Group className="mb-3" onChange={(e) => setNom(e.target.value)}>
               <Form.Label>Nom</Form.Label>
-              <Form.Control as="text" rows={3} />
+              <Form.Control type="text"  />
             </Form.Group>
+            
             <Form.Group onChange={(e) => setComment(e.target.value)}
               className="mb-3"
               controlId="exampleForm.ControlTextarea1"

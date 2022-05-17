@@ -7,6 +7,9 @@ import ListItemAvatar from '@mui/material/ListItemAvatar';
 import Avatar from '@mui/material/Avatar';
 import Typography from '@mui/material/Typography';
 import Rating from '@mui/material/Rating';
+import DeletMonument from "../ButtonsAdmin/DeletMonument";
+import DeleteEvaluation from "../ButtonsAdmin/DeletEvaluation";
+import DeleteUser from "../ButtonsAdmin/DeleteUser";
 export default function ListEval(props){
   //props : id
   const data=props.list;
@@ -20,8 +23,10 @@ export default function ListEval(props){
               <ListItemAvatar>
                 <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
               </ListItemAvatar>
+              
+              
               <ListItemText
-                primary={item.editeur.nomComplet}
+                primary={<> {item.editeur.nomComplet}<DeleteUser id={item.editeur.id}></DeleteUser></> }
                 
                 secondary={
                   <>
@@ -40,11 +45,10 @@ export default function ListEval(props){
                   </React.Fragment></>
                 }
               />
+                <DeleteEvaluation style={{margin: "auto"}} id={item.id}></DeleteEvaluation>
             </ListItem>
-            <Divider variant="inset" component="li" /></>
-           
             
-          
+            <Divider variant="inset" component="li" /></>
 
     )})}</List></>);
 }
