@@ -17,6 +17,7 @@ import "./card.css"
 import ListEval from '../Feedback/listEval';
 import Evaluer from '../Feedback/Evaluer';
 import { useParams } from 'react-router-dom';
+import GetToken from "../../persistance/GetToken";
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;
@@ -66,7 +67,7 @@ export default function Monumentinfo(props) {
       </CardContent>
       <CardActions disableSpacing>
         <IconButton aria-label="add to favorites">
-          <Evaluer idMonument={id} id={props.userId} />
+          <Evaluer idMonument={id} id={GetToken().split("_")[0]} />
         </IconButton>
         <IconButton aria-label="Download pdf">
           <DownloadIcon onClick={()=> window.open("http://localhost:8080/pdf/"+id, "_blank")}/>
