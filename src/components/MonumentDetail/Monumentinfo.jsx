@@ -17,6 +17,7 @@ import "./card.css"
 import ListEval from '../Feedback/listEval';
 import Evaluer from '../Feedback/Evaluer';
 import { useParams } from 'react-router-dom';
+import DeletMonument from '../ButtonsAdmin/DeletMonument';
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;
