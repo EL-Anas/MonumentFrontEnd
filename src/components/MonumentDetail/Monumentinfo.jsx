@@ -18,6 +18,7 @@ import ListEval from '../Feedback/listEval';
 import Evaluer from '../Feedback/Evaluer';
 import { useParams } from 'react-router-dom';
 import GetToken from "../../persistance/GetToken";
+import DeletMonument from '../ButtonsAdmin/DeletMonument';
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;
@@ -51,7 +52,8 @@ export default function Monumentinfo(props) {
 
     fetch("http://localhost:8080/monument?id=" +id, requestOptions)
       .then((response) => response.json())
-      .then((data) => {setMonument(data);setNom(data.nom);setDesc(data.description);setVille(data.ville);setImage(data.liensImage);setEval(data.evaluations);console.log(data)});},[monument])
+      .then((data) => {setMonument(data);setNom(data.nom);setDesc(data.description);setVille(data.ville);setImage(data.liensImage);setEval(data.evaluations);console.log(data)});}
+      ,[monument])
   return (
       <div className="divM">
     <Card className="Card" >
@@ -69,6 +71,8 @@ export default function Monumentinfo(props) {
         <IconButton aria-label="add to favorites">
           <Evaluer idMonument={id} id={GetToken().split("_")[0]} />
         </IconButton>
+        <DeletMonument idMonument={props.idMonument}></DeletMonument>
+
         <IconButton aria-label="Download pdf">
           <DownloadIcon onClick={()=> window.open("http://localhost:8080/pdf/"+id, "_blank")}/>
         </IconButton>
