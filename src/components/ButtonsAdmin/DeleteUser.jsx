@@ -15,22 +15,17 @@ export default function DeleteUser(props) {
     //props: idEvalue et nomEvaluateur
     const navigate = useNavigate();
     const handleDelete = () => {
-        alert(props.id);
-        // var myHeaders = new Headers();
-        // myHeaders.append("Content-Type", "application/json");
-        // myHeaders.append("token" , "0_d578e6cafc918ef8d627d0be9a798fb890ef2e36a4dc3dbe66c21ea044a6d4ed");
-        // var requestOptions = {
-        //     method: 'POST',
-        //     headers: myHeaders,
-        //     body: {"evaluationId":props.id} ,
-        //     redirect: 'follow'
-        // };
-        // console.log("id")
-        // console.log(props.id)
-        // console.log(props.id)
-        // fetch("http://localhost:8080/evaluation/delete?evaluationId="+props.id, requestOptions)
-        //     .then(navigate("/"))
- 
+        var myHeaders = new Headers();
+        myHeaders.append("Content-Type", "application/json");
+        myHeaders.append("token" , "0_d578e6cafc918ef8d627d0be9a798fb890ef2e36a4dc3dbe66c21ea044a6d4ed");
+        var requestOptions = {
+            method: 'POST',
+            headers: myHeaders,
+            body: {"evaluationId":props.id} ,
+            redirect: 'follow'
+        };
+        fetch("http://localhost:8080/user/delete?userId="+props.id, requestOptions);
+        alert("Utilisateur Supprimer")
     }
 
     return (
