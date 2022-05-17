@@ -72,12 +72,12 @@ const SignUp = () => {
     
     return (
     <ThemeProvider theme={theme}>
-        <Container component="main" maxWidth="xs"  sx= {{
+        <Container component="main" maxWidth="sm"  sx= {{
           backgroundColor: 'white',
-          padding: 4,
-          marginTop: 4,
-          marginBottom: 4,
+          paddingTop: 8,
           borderRadius: 2,
+          height: "100vh",
+          marginRight: 0,
         }}>
           <CssBaseline />
           <Box
