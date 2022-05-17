@@ -35,8 +35,7 @@ export default function MonumentCard(props) {
       </CardActionArea>
       <CardActions>
         <Link to={{
-        pathname: "/monument",
-        search: `?${createSearchParams(params)}`,
+        pathname: "/monument/"+props.id,
         }}>
         <Button size="small" color="primary">
           Details
