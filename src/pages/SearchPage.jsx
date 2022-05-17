@@ -19,8 +19,12 @@ const Home = () => {
   const [map, setMap] = useState(null);
   const [searchParams] = useSearchParams();
 
+  useEffect(() => {
+    setMotcle(searchParams.get('motCle'));
+    getMonumentsFirst(searchParams.get('motCle'));
+  },[]);
 
-  const getMonuments =()=>{
+  const getMonumentsFirst =(motcle)=>{
     let link = 'http://localhost:8080/search?motClets='+encodeURIComponent(motcle.split(" ").join(","));
     if (motcle == '')
       link ='http://localhost:8080/search';
@@ -33,12 +37,12 @@ const Home = () => {
       })
       .catch(err => console.log(err));
 
+  }
+
+  const getMonuments = () => {
+    getMonumentsFirst(motcle);
 
   }
-  useEffect(() => {
-    setMotcle(searchParams.get('motCle'));
-    getMonuments();
-  },[]);
 
 
   const onTextChange = (e) => {

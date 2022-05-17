@@ -17,6 +17,9 @@ import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Container from '@mui/material/Container';
 import logo from '../../ressources/logo.webp';
+import AuthNew from './AuthNew';
+import {useNavigate} from 'react-router-dom';
+import useEffect from "react"
 
 
 function Copyright(props) {
@@ -35,12 +38,18 @@ function Copyright(props) {
 const theme = createTheme();
 
 const SignUp = () => {
+    const navigate = useNavigate();
     const[email,setEmail]=useState("");
     const[password,setPassword]=useState("");
+    const[nom,setNom]=useState("");
+    const[prenom,setPrenom]=useState("");
     const[submit,setSubmit]=useState(false);
+    const[token,setToken]=useState("");
+    const[created,setCreated]=useState(false);
     const handleEmailValidation=(field)=>{
+      const regex = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
       if(submit)
-        return field!=="";
+        return  regex.test(field)&token!=="fail";
       return true;
     }
     const handleEmptyValidation=(field)=>{
@@ -48,18 +57,27 @@ const SignUp = () => {
         return field!=="";
       return true;
   }
+    const redirect=(field)=>{
+      if(field){
+        setTimeout(() => {  navigate("/login"); }, 2000);
+      }
+    }
     const handleSubmit = (event) => {
-    event.preventDefault();
-    
+      setSubmit(true);
+      console.log(nom,prenom,email,password,submit)
+      event.preventDefault();
+      AuthNew(email,password,nom,prenom).then((token)=>{setToken(token);setCreated(token!=="fail");redirect(token!=="fail") ;console.log(token)});
+      
   };
+    
     return (
     <ThemeProvider theme={theme}>
-        <Container component="main" maxWidth="xs"  sx= {{
+        <Container component="main" maxWidth="sm"  sx= {{
           backgroundColor: 'white',
-          padding: 4,
-          marginTop: 4,
-          marginBottom: 4,
+          paddingTop: 8,
           borderRadius: 2,
+          height: "100vh",
+          marginRight: 0,
         }}>
           <CssBaseline />
           <Box
@@ -86,7 +104,8 @@ const SignUp = () => {
                     id="firstName"
                     label="First Name"
                     autoFocus
-                    
+                    onChange={(event) =>setPrenom(event.target.value)}
+                    error={!handleEmptyValidation(prenom)}
                   />
                 </Grid>
                 <Grid item xs={12} sm={6}>
@@ -97,6 +116,8 @@ const SignUp = () => {
                     label="Last Name"
                     name="lastName"
                     autoComplete="family-name"
+                    onChange={(event) =>setNom(event.target.value)}
+                    error={!handleEmptyValidation(nom)}
                   />
                 </Grid>
                 <Grid item xs={12}>
@@ -107,6 +128,8 @@ const SignUp = () => {
                     label="Email Address"
                     name="email"
                     autoComplete="email"
+                    onChange={(event) =>setEmail(event.target.value)}
+                    error={!handleEmailValidation(email)}
                   />
                 </Grid>
                 <Grid item xs={12}>
@@ -118,22 +141,20 @@ const SignUp = () => {
                     type="password"
                     id="password"
                     autoComplete="new-password"
-                  />
-                </Grid>
-                <Grid item xs={12}>
-                  <FormControlLabel
-                    control={<Checkbox value="allowExtraEmails" color="primary" />}
-                    label="I want to receive inspiration, marketing promotions and updates via email."
+                    onChange={(event) =>setPassword(event.target.value)}
+                    error={!handleEmptyValidation(password)}
                   />
                 </Grid>
               </Grid>
+              {token==="fail"&&<Alert variant="filled" severity="error">Email existe déja!</Alert>}
+              {created&&<Alert variant="filled" severity="success">Compte bien créé!</Alert>}
               <Button
                 type="submit"
                 fullWidth
                 variant="contained"
                 sx={{ mt: 3, mb: 2 }}
               >
-                S'inscrir
+                S'inscrire
               </Button>
               <Grid container justifyContent="flex-end">
                 <Grid item>
