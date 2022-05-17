@@ -25,7 +25,7 @@ function App() {
 
     const location = useLocation();
     const path = location.pathname;
-    const notAuth = path !== '/login';
+    const notAuth = path !== '/login' && path !== '/signup';
   
     
 
