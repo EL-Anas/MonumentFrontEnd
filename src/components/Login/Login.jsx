@@ -16,8 +16,10 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import logo from '../../ressources/logo.webp';
+import {useNavigate} from 'react-router-dom';
 import Auth from './Auth';
-
+import GetToken from "../../persistance/GetToken";
+import SaveToken from "../../persistance/SaveToken";
 function Copyright(props) {
   return (
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
@@ -34,6 +36,7 @@ function Copyright(props) {
 const theme = createTheme();
 
 const Login = () => {
+    const navigate = useNavigate();
     const[email,setEmail]=useState("");
     const[password,setPassword]=useState("");
     const[submit,setSubmit]=useState(false);
@@ -48,10 +51,15 @@ const Login = () => {
         return field!==""&&token!=="fail";
       return true;
   }
+  const redirect=(field)=>{
+    if(field){
+      navigate("/");
+    }
+  }
     const handleSubmit = (event) => {
     setSubmit(true);
     event.preventDefault();
-    Auth(email,password).then((token)=>{setToken(token); console.log(token)});
+    Auth(email,password).then((token)=>{setToken(token); SaveToken(token);console.log(GetToken());redirect(token!=="fail")});
     
   };
     return (
