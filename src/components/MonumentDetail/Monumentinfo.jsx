@@ -16,6 +16,7 @@ import Imageslider from './Imageslider';
 import "./card.css"
 import ListEval from '../Feedback/listEval';
 import Evaluer from '../Feedback/Evaluer';
+import DeletMonument from '../ButtonsAdmin/DeletMonument';
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -49,7 +50,8 @@ export default function Monumentinfo(props) {
 
     fetch("http://localhost:8080/monument?id=" +props.idMonument, requestOptions)
       .then((response) => response.json())
-      .then((data) => {setMonument(data);setNom(data.nom);setDesc(data.description);setVille(data.ville);setImage(data.liensImage);setEval(data.evaluations);console.log(data)});},[monument])
+      .then((data) => {setMonument(data);setNom(data.nom);setDesc(data.description);setVille(data.ville);setImage(data.liensImage);setEval(data.evaluations);console.log(data)});}
+      ,[monument])
   return (
       <div className="divM">
     <Card className="Card" >
@@ -67,6 +69,8 @@ export default function Monumentinfo(props) {
         <IconButton aria-label="add to favorites">
           <Evaluer idMonument={props.idMonument} id={props.userId} nom={props.userNom}/>
         </IconButton>
+        <DeletMonument idMonument={props.idMonument}></DeletMonument>
+
         <IconButton aria-label="Download pdf">
           <DownloadIcon onClick={()=> window.open("http://localhost:8080/pdf/"+props.idMonument, "_blank")}/>
         </IconButton>
