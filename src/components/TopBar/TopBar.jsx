@@ -31,6 +31,7 @@ const Deconnexion = () => {
     const navigate = useNavigate();
     const disconnect = () => {
       SaveToken(null);
+      console.log(GetToken())
       navigate({ pathname: "/" });
     }
 
@@ -43,7 +44,11 @@ const Deconnexion = () => {
 const TopBar = () => {
   
   const connected = () => {
-    return GetToken() != null && GetToken() != 'fail' ;
+    const c = !(GetToken() == "null")  && !(GetToken() == "fail") 
+    
+    console.log("connected" + GetToken())
+    console.log("connected" + c)
+    return c ;
   }
 
     return (
