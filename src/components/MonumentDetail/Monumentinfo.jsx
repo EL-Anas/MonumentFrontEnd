@@ -16,7 +16,7 @@ import Imageslider from './Imageslider';
 import "./card.css"
 import ListEval from '../Feedback/listEval';
 import Evaluer from '../Feedback/Evaluer';
-
+import { useParams } from 'react-router-dom';
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;
@@ -29,7 +29,8 @@ const ExpandMore = styled((props) => {
 }));
 
 export default function Monumentinfo(props) {
-  //props: idMonument , userId , userNom
+  let { id } = useParams();
+  // , userId , userNom
   const [expanded, setExpanded] = useState(false);
   const [monument,setMonument]=useState({});
   const [desc,setDesc]=useState("");
@@ -47,7 +48,7 @@ export default function Monumentinfo(props) {
       redirect: "follow",
     };
 
-    fetch("http://localhost:8080/monument?id=" +props.idMonument, requestOptions)
+    fetch("http://localhost:8080/monument?id=" +id, requestOptions)
       .then((response) => response.json())
       .then((data) => {setMonument(data);setNom(data.nom);setDesc(data.description);setVille(data.ville);setImage(data.liensImage);setEval(data.evaluations);console.log(data)});},[monument])
   return (
@@ -65,10 +66,10 @@ export default function Monumentinfo(props) {
       </CardContent>
       <CardActions disableSpacing>
         <IconButton aria-label="add to favorites">
-          <Evaluer idMonument={props.idMonument} id={props.userId} nom={props.userNom}/>
+          <Evaluer idMonument={id} id={props.userId} />
         </IconButton>
         <IconButton aria-label="Download pdf">
-          <DownloadIcon onClick={()=> window.open("http://localhost:8080/pdf/"+props.idMonument, "_blank")}/>
+          <DownloadIcon onClick={()=> window.open("http://localhost:8080/pdf/"+id, "_blank")}/>
         </IconButton>
         <ExpandMore
           expand={expanded}

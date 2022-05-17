@@ -12,6 +12,7 @@ export default function Evaluer (props) {
   //props: idEvalue et nomEvaluateur
   const [value, setValue] = useState(0);
   const [comment,setComment]=useState("");
+  const[nom,setNom]=useState("");
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -21,7 +22,7 @@ export default function Evaluer (props) {
       "commentaire":comment,
       "editeur":{
         "id":props.id,
-        "nomComplet":props.nom
+        "nomComplet":nom
     },
 });
 var myHeaders = new Headers();
@@ -59,7 +60,14 @@ fetch("http://localhost:8080/evaluation/add?monumentId="+props.idMonument, reque
             setValue(newValue);
         }}
         />
-        <Form.Group onChange={(e) => setComment(e.target.value)}
+            <Form.Group onChange={(e) => setNom(e.target.value)}
+              className="mb-3"
+              controlId="exampleForm.ControlText"
+            >
+              <Form.Label>Nom</Form.Label>
+              <Form.Control as="text" rows={3} />
+            </Form.Group>
+            <Form.Group onChange={(e) => setComment(e.target.value)}
               className="mb-3"
               controlId="exampleForm.ControlTextarea1"
             >
