@@ -71,7 +71,7 @@ export default function Monumentinfo(props) {
         <IconButton aria-label="add to favorites">
           <Evaluer idMonument={id} id={GetToken().split("_")[0]} />
         </IconButton>
-        <DeletMonument idMonument={props.idMonument}></DeletMonument>
+        <DeletMonument idMonument={id}></DeletMonument>
 
         <IconButton aria-label="Download pdf">
           <DownloadIcon onClick={()=> window.open("http://localhost:8080/pdf/"+id, "_blank")}/>
