@@ -100,7 +100,7 @@ export default function AddMonument() {
         <br />
         <TextField
           style={{ width: "500px", margin: "5px" }}
-          type="number"
+          type="text"
           label="Image Link 1"
           variant="outlined"
           onChange={(event) =>setImg1(event.target.value)}
