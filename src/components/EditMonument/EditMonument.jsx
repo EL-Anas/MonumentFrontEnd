@@ -63,7 +63,7 @@ const redirect=(field)=>{
     }
   ,[]);
 
-  const handleClick =async (e) => {
+  let handleClick =async (e) => {
     e.preventDefault() ;
     const MonumentUpdated =
     {
@@ -75,7 +75,7 @@ const redirect=(field)=>{
         "longitude": longitude
     },
     "liensImage": [
-        img1,img2,img3
+      
     ],
     "ville": {
         "nom": ville,
@@ -84,6 +84,15 @@ const redirect=(field)=>{
     "evaluations": [],
     "rating": 0.0
 } 
+if (img1 !== "") {
+  MonumentUpdated.liensImage.push(img1);
+}
+if (img2 !== "") {
+  MonumentUpdated.liensImage.push(img2);
+}
+if (img3 !== "") {
+  MonumentUpdated.liensImage.push(img3);
+}
 
     const link = 'http://localhost:8080/monument/edit';
     const requestOptions = {
