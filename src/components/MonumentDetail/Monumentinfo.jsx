@@ -86,18 +86,22 @@ export default function Monumentinfo(props) {
           connected() && <>
         <IconButton aria-label="add to favorites">
           <Evaluer idMonument={id} id={getUserId()} />
-          <Button component={Link} to={"/edit/"+id} color="secondary">Modifier</Button>
+        </IconButton>
+        <IconButton >
+          <Button variant='outlined' component={Link} to={"/edit/"+id} color="secondary">Modifier</Button>
         </IconButton>
         </>
         }
         {
           IsAdmin() && <>
+        <IconButton >
         <DeletMonument idMonument={id}></DeletMonument>
+        </IconButton>
         </>
         }
 
-        <IconButton aria-label="Download pdf">
-          <DownloadIcon onClick={()=> window.open("http://localhost:8080/pdf/"+id, "_blank")}/>
+        <IconButton >
+        <Button onClick={()=> window.open("http://localhost:8080/pdf/"+id, "_blank")} variant='outlined' startIcon= {<DownloadIcon />}>Download pdf</Button>
         </IconButton>
         <ExpandMore
           expand={expanded}
