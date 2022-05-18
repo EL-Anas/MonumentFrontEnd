@@ -19,6 +19,9 @@ import Evaluer from '../Feedback/Evaluer';
 import { useParams } from 'react-router-dom';
 import GetToken from "../../persistance/GetToken";
 import DeletMonument from '../ButtonsAdmin/DeletMonument';
+import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
+import IsAdmin from '../../checks/IsAdmin'
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;
@@ -45,11 +48,14 @@ export default function Monumentinfo(props) {
   };
 
   const getUserId = () => {
-    if (GetToken() == null || GetToken() == 'fail')
+    if (GetToken() == 'null' || GetToken() == 'fail')
       return -1;
     return GetToken().split("_")[0];
   }
-
+  const connected = () => {
+    const c = !(GetToken() == "null")  && !(GetToken() == "fail") 
+    return c ;
+  }
 
   useEffect (() => {
 
@@ -76,13 +82,26 @@ export default function Monumentinfo(props) {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
+        {
+          connected() && <>
         <IconButton aria-label="add to favorites">
           <Evaluer idMonument={id} id={getUserId()} />
         </IconButton>
+        <IconButton >
+          <Button variant='outlined' component={Link} to={"/edit/"+id} color="secondary">Modifier</Button>
+        </IconButton>
+        </>
+        }
+        {
+          IsAdmin() && <>
+        <IconButton >
         <DeletMonument idMonument={id}></DeletMonument>
+        </IconButton>
+        </>
+        }
 
-        <IconButton aria-label="Download pdf">
-          <DownloadIcon onClick={()=> window.open("http://localhost:8080/pdf/"+id, "_blank")}/>
+        <IconButton >
+        <Button onClick={()=> window.open("http://localhost:8080/pdf/"+id, "_blank")} variant='outlined' startIcon= {<DownloadIcon />}>Download pdf</Button>
         </IconButton>
         <ExpandMore
           expand={expanded}

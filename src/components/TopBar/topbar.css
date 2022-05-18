@@ -13,3 +13,8 @@
   margin-top: 10px;
   margin-left: 20px;
 }
+
+#ajouter {
+  display: inline;
+  margin-inline: 10px;
+}

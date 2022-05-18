@@ -10,11 +10,13 @@ import {
 } from "@mui/material";
 
 import MenuItem from "@mui/material/MenuItem";
+import { useParams } from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 
 export default function EditMonument() {
 
     
-    
+  let { id } = useParams();
   const[nom,setNom]=React.useState("");
   const[description,setDescription]=React.useState("");
   const[longitude,setLongitude]=React.useState("");
@@ -23,10 +25,11 @@ export default function EditMonument() {
   const[img1,setImg1]=React.useState("");
   const[img2,setImg2]=React.useState("");
   const[img3,setImg3]=React.useState("");
+  const navigate = useNavigate();
 
   React.useEffect( () => { 
     
-        const link = 'http://localhost:8080/monument?id=2';
+        const link = 'http://localhost:8080/monument?id='+id;
         const requestOptions = {
         method: 'GET',
         headers: { 'Content-Type': 'application/json' },
@@ -52,7 +55,7 @@ export default function EditMonument() {
     e.preventDefault() ;
     const MonumentUpdated =
     {
-    "id": "1",
+    "id": id,
     "nom": nom,
     "description": description,
     "coordinate": {
@@ -76,7 +79,8 @@ export default function EditMonument() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(MonumentUpdated)
     };
-     fetch(link,requestOptions);
+     fetch(link,requestOptions)
+     .then(navigate("/monument/"+id));
   }
   return (
     <div className="App">
@@ -105,7 +109,7 @@ export default function EditMonument() {
         <br />
         <TextField
           style={{ width: "500px", margin: "5px" }}
-          type="text"
+          type="number"
           value={longitude}
           label="Longitude"
           variant="outlined"
@@ -114,7 +118,7 @@ export default function EditMonument() {
         <br />
         <TextField
           style={{ width: "500px", margin: "5px" }}
-          type="text"
+          type="number"
           value={latitude}
           label="Latitude"
           variant="outlined"
@@ -158,7 +162,7 @@ export default function EditMonument() {
         />
         <br />
         <br />
-        <Button variant="contained" color="primary" onClick={handleClick} >
+        <Button variant="contained" color="primary" onClick={handleClick}   >
           Edit
         </Button>
       </form>
