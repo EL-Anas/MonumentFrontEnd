@@ -45,11 +45,14 @@ export default function Monumentinfo(props) {
   };
 
   const getUserId = () => {
-    if (GetToken() == null || GetToken() == 'fail')
+    if (GetToken() == 'null' || GetToken() == 'fail')
       return -1;
     return GetToken().split("_")[0];
   }
-
+  const connected = () => {
+    const c = !(GetToken() == "null")  && !(GetToken() == "fail") 
+    return c ;
+  }
 
   useEffect (() => {
 
@@ -76,9 +79,12 @@ export default function Monumentinfo(props) {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
+        {
+          connected() &&
         <IconButton aria-label="add to favorites">
           <Evaluer idMonument={id} id={getUserId()} />
         </IconButton>
+        }
         <DeletMonument idMonument={id}></DeletMonument>
 
         <IconButton aria-label="Download pdf">
