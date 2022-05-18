@@ -12,6 +12,7 @@ import {
 import MenuItem from "@mui/material/MenuItem";
 import { useParams } from 'react-router-dom';
 import {useNavigate} from 'react-router-dom';
+import Alert from '@mui/material/Alert';
 
 export default function EditMonument() {
 
@@ -25,8 +26,19 @@ export default function EditMonument() {
   const[img1,setImg1]=React.useState("");
   const[img2,setImg2]=React.useState("");
   const[img3,setImg3]=React.useState("");
+  const[returnid,setReturnId]=React.useState("fail");
   const navigate = useNavigate();
-
+  const handleEmptyValidation=(field)=>{
+      return field!=="";
+}
+const verifyAllFields=()=>{
+  return handleEmptyValidation(nom)&&handleEmptyValidation(longitude)&&handleEmptyValidation(latitude)&&handleEmptyValidation(ville)&&handleEmptyValidation(img1);
+}
+const redirect=(field)=>{
+  if(field!=="fail"){
+    setTimeout(() => {  navigate("/monument/"+id); }, 2000);
+  }
+}
   React.useEffect( () => { 
     
         const link = 'http://localhost:8080/monument?id='+id;
@@ -79,8 +91,10 @@ export default function EditMonument() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(MonumentUpdated)
     };
-     fetch(link,requestOptions)
-     .then(navigate("/monument/"+id));
+    if(verifyAllFields()){
+      fetch(link,requestOptions)
+      .then(res=>res.text()).then(returnid=>{setReturnId(returnid);redirect(returnid)});
+    }
   }
   return (
     <div className="App">
@@ -96,6 +110,7 @@ export default function EditMonument() {
           label="Nom"
           variant="outlined"
           onChange={(event) =>setNom(event.target.value)}
+          error={!handleEmptyValidation(nom)}
         />
         <br />
         <TextField
@@ -114,6 +129,7 @@ export default function EditMonument() {
           label="Longitude"
           variant="outlined"
           onChange={(event) =>setLongitude(event.target.value)}
+          error={!handleEmptyValidation(longitude)}
         />
         <br />
         <TextField
@@ -123,6 +139,7 @@ export default function EditMonument() {
           label="Latitude"
           variant="outlined"
           onChange={(event) =>setLatitude(event.target.value)}
+          error={!handleEmptyValidation(latitude)}
         />
         <br />
         <TextField
@@ -132,6 +149,7 @@ export default function EditMonument() {
           label="Ville"
           variant="outlined"
           onChange={(event) =>setVille(event.target.value)}
+          error={!handleEmptyValidation(ville)}
         />
         <br />
         <TextField
@@ -141,6 +159,7 @@ export default function EditMonument() {
           label="Image Link 1"
           variant="outlined"
           onChange={(event) =>setImg1(event.target.value)}
+          error={!handleEmptyValidation(img1)}
         />
         <br />
         <TextField
@@ -161,6 +180,7 @@ export default function EditMonument() {
           onChange={(event) =>setImg3(event.target.value)}
         />
         <br />
+        {returnid!=="fail"&&<Alert variant="filled" severity="success">Monument bien modifié!</Alert>}
         <br />
         <Button variant="contained" color="primary" onClick={handleClick}   >
           Edit
