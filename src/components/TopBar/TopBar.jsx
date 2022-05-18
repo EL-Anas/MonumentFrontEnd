@@ -60,6 +60,11 @@ const TopBar = () => {
           </Link>
           </div>
           <div id="login">
+            <div id="ajouter">
+              <Link to="/add">
+                <Button >ajouter</Button>
+              </Link>
+            </div>
 
             {!connected() && <Connexion/>}
             {connected() && <Deconnexion/>}
