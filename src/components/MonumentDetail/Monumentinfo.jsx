@@ -21,6 +21,7 @@ import GetToken from "../../persistance/GetToken";
 import DeletMonument from '../ButtonsAdmin/DeletMonument';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
+import IsAdmin from '../../checks/IsAdmin'
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;
@@ -82,13 +83,18 @@ export default function Monumentinfo(props) {
       </CardContent>
       <CardActions disableSpacing>
         {
-          connected() &&
+          connected() && <>
         <IconButton aria-label="add to favorites">
           <Evaluer idMonument={id} id={getUserId()} />
+          <Button component={Link} to={"/edit/"+id} color="secondary">Modifier</Button>
         </IconButton>
+        </>
         }
-        <Button component={Link} to={"/edit/"+id} color="secondary">Modifier</Button>
+        {
+          IsAdmin() && <>
         <DeletMonument idMonument={id}></DeletMonument>
+        </>
+        }
 
         <IconButton aria-label="Download pdf">
           <DownloadIcon onClick={()=> window.open("http://localhost:8080/pdf/"+id, "_blank")}/>

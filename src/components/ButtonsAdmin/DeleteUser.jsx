@@ -8,6 +8,7 @@ import { Navigate, useNavigate } from "react-router-dom";
 import Button from '@mui/material/Button';
 import DeleteIcon from '@mui/icons-material/Delete';
 import IconButton from '@mui/material/IconButton';
+import IsAdmin from "../../checks/IsAdmin";
 
 
 
@@ -27,6 +28,7 @@ export default function DeleteUser(props) {
         fetch("http://localhost:8080/user/delete?userId="+props.id, requestOptions);
         alert("Utilisateur Supprimer")
     }
+    if (!IsAdmin()) return <></>;
 
     return (
         <>

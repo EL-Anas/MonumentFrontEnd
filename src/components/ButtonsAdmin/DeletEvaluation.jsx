@@ -9,6 +9,7 @@ import Button from '@mui/material/Button';
 import DeleteIcon from '@mui/icons-material/Delete';
 import IconButton from '@mui/material/IconButton';
 
+import IsAdmin from "../../checks/IsAdmin";
 
 
 export default function DeleteEvaluation(props) {
@@ -29,6 +30,7 @@ export default function DeleteEvaluation(props) {
  
     }
 
+    if (!IsAdmin()) return <></>;
     return (
         <IconButton style={{margin: "auto"}} aria-label="delete" size="big" onClick={handleDelete}>
             <DeleteIcon fontSize="inherit" />
