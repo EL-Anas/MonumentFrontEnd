@@ -19,6 +19,8 @@ import Evaluer from '../Feedback/Evaluer';
 import { useParams } from 'react-router-dom';
 import GetToken from "../../persistance/GetToken";
 import DeletMonument from '../ButtonsAdmin/DeletMonument';
+import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;
@@ -79,6 +81,7 @@ export default function Monumentinfo(props) {
         <IconButton aria-label="add to favorites">
           <Evaluer idMonument={id} id={getUserId()} />
         </IconButton>
+        <Button component={Link} to={"/edit/"+id} color="secondary">Modifier</Button>
         <DeletMonument idMonument={id}></DeletMonument>
 
         <IconButton aria-label="Download pdf">

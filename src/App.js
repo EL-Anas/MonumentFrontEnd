@@ -20,6 +20,7 @@ import Login from './components/Login/Login';
 import { useLocation } from 'react-router-dom';
 import SignUp from './components/Signup/SignUp';
 import AddMonument from './components/AddMonument/AddMonument';
+import EditMonument from './components/EditMonument/EditMonument';
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
           <Route exact path='/login' element={<Login/>}></Route>
           <Route exact path='/signup' element={<SignUp/>}></Route>
           <Route exact path='/add' element={<AddMonument/>}></Route>
+          <Route exact path='/edit/:id' element={<EditMonument/>}></Route>
           {/* <Route exact path='/about' element={< About />}></Route> */}
           {/* <Route exact path='/contact' element={< Contact />}></Route> */}
         </Routes>

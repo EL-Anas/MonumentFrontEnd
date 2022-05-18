@@ -32,7 +32,7 @@ export default function DeletMonument(props) {
 
     return (
         <>
-            <Button style={{textTransform: 'none'}} variant="contained" startIcon={<DeleteIcon />} onClick={handleDelete}>
+            <Button style={{textTransform: 'none'}} variant="outlined" color="error" startIcon={<DeleteIcon />} onClick={handleDelete}>
                 Supprimer
             </Button>
         </>
