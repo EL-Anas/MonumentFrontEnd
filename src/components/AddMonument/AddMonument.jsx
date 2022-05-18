@@ -76,7 +76,7 @@ export default function AddMonument() {
         <br />
         <TextField
           style={{ width: "500px", margin: "5px" }}
-          type="text"
+          type="number"
           label="Longitude"
           variant="outlined"
           onChange={(event) =>setLongitude(event.target.value)}
@@ -84,7 +84,7 @@ export default function AddMonument() {
         <br />
         <TextField
           style={{ width: "500px", margin: "5px" }}
-          type="text"
+          type="number"
           label="Latitude"
           variant="outlined"
           onChange={(event) =>setLatitude(event.target.value)}
@@ -100,7 +100,7 @@ export default function AddMonument() {
         <br />
         <TextField
           style={{ width: "500px", margin: "5px" }}
-          type="number"
+          type="text"
           label="Image Link 1"
           variant="outlined"
           onChange={(event) =>setImg1(event.target.value)}
