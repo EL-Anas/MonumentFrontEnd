@@ -109,7 +109,7 @@ export default function EditMonument() {
         <br />
         <TextField
           style={{ width: "500px", margin: "5px" }}
-          type="text"
+          type="number"
           value={longitude}
           label="Longitude"
           variant="outlined"
@@ -118,7 +118,7 @@ export default function EditMonument() {
         <br />
         <TextField
           style={{ width: "500px", margin: "5px" }}
-          type="text"
+          type="number"
           value={latitude}
           label="Latitude"
           variant="outlined"
