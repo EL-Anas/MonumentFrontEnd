@@ -14,6 +14,17 @@
       "purpose": "any maskable"
     },
     {
+      "src": "./favicon_io/android-chrome-256x256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+    ,
+    {
+      "src": "./favicon_io/android-chrome-384x384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
       "src": "./favicon_io/android-chrome-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
@@ -22,8 +33,8 @@
   "theme_color": "#000000", 
   "background_color": "#000000",
   "display": "standalone",
-  "scope": ".",
-  "start_url": ".",
+  "scope": "/",
+  "start_url": "/",
     "prefer_related_applications" : "true"  
 
 }
