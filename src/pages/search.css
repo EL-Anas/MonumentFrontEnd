@@ -6,6 +6,7 @@
     margin-right: 0;
     overflow-y: scroll;
     height: 100%;
+    width: 80%;
 }
 .container {
     padding: 20px;
