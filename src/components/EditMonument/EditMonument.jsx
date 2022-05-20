@@ -113,7 +113,7 @@ if (img3 !== "") {
 
       <form>
         <TextField
-          style={{ width: "500px", margin: "5px" }}
+          style={{ width: "100%" ,maxWidth: "500px", margin: "5px" }}
           type="text"
           value={nom }
           label="Nom"
@@ -123,7 +123,7 @@ if (img3 !== "") {
         />
         <br />
         <TextField
-          style={{ width: "500px", margin: "5px" }}
+          style={{ width: "100%" ,maxWidth: "500px", margin: "5px" }}
           type="text"
           value={description}
           label="Description"
@@ -132,7 +132,7 @@ if (img3 !== "") {
         />
         <br />
         <TextField
-          style={{ width: "500px", margin: "5px" }}
+          style={{ width: "100%" ,maxWidth: "500px", margin: "5px" }}
           type="number"
           value={longitude}
           label="Longitude"
@@ -142,7 +142,7 @@ if (img3 !== "") {
         />
         <br />
         <TextField
-          style={{ width: "500px", margin: "5px" }}
+          style={{ width: "100%" ,maxWidth: "500px", margin: "5px" }}
           type="number"
           value={latitude}
           label="Latitude"
@@ -152,7 +152,7 @@ if (img3 !== "") {
         />
         <br />
         <TextField
-          style={{ width: "500px", margin: "5px" }}
+          style={{ width: "100%" ,maxWidth: "500px", margin: "5px" }}
           type="text"
           value={ville}
           label="Ville"
@@ -162,7 +162,7 @@ if (img3 !== "") {
         />
         <br />
         <TextField
-          style={{ width: "500px", margin: "5px" }}
+          style={{ width: "100%" ,maxWidth: "500px", margin: "5px" }}
           type="text"
           value={img1}
           label="Image Link 1"
@@ -172,7 +172,7 @@ if (img3 !== "") {
         />
         <br />
         <TextField
-          style={{ width: "500px", margin: "5px" }}
+          style={{ width: "100%" ,maxWidth: "500px", margin: "5px" }}
           type="text"
           value={img2}
           label="Image Link 2"
@@ -181,7 +181,7 @@ if (img3 !== "") {
         />
         <br />
         <TextField
-          style={{ width: "500px", margin: "5px" }}
+          style={{ width: "100%" ,maxWidth: "500px", margin: "5px" }}
           type="text"
           value={img3}
           label="Image Link 3"
