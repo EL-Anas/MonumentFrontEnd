@@ -82,6 +82,7 @@ export default function Monumentinfo(props) {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
+        <div>
         {
           connected() && <>
         <IconButton aria-label="add to favorites">
@@ -103,6 +104,7 @@ export default function Monumentinfo(props) {
         <IconButton >
         <Button onClick={()=> window.open("http://localhost:8080/pdf/"+id, "_blank")} variant='outlined' startIcon= {<DownloadIcon />}>Download pdf</Button>
         </IconButton>
+        </div>
         <ExpandMore
           expand={expanded}
           onClick={handleExpandClick}
