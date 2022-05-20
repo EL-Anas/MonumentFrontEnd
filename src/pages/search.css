@@ -21,9 +21,44 @@
 }
 
 .map {
-    width: 50%;
+    width: 75%;
 }
 .leaflet-container {
     width: 100%;
     height: 100%;
 }
+
+@media only screen and (max-width: 750px) {
+    .mCard {
+        margin: 10px;
+    }
+ 
+    .container {
+        padding: 20px;
+        padding-top: 10px;
+        margin-top: 10px;
+        background-color: white;
+        border-radius: 6px;
+    }
+    .result {
+        display: flex;
+        height: 500px;
+        flex-direction: column;
+    }
+    .cardsContainer {
+        margin: auto;
+        margin-right: 0;
+        overflow-y: scroll;
+        height: 100%;
+        width: 100%;
+        flex: 50%;
+    }
+    .map {
+        width: 100%;
+        flex: 50%;
+    }
+    .leaflet-container {
+        width: 100%;
+        height: 100%;
+    }
+  }
