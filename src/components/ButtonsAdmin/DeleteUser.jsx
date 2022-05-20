@@ -25,7 +25,7 @@ export default function DeleteUser(props) {
             body: {"evaluationId":props.id} ,
             redirect: 'follow'
         };
-        fetch("http://localhost:8080/user/delete?userId="+props.id, requestOptions);
+        fetch("http://10.72.126.185:8080/user/delete?userId="+props.id, requestOptions);
         alert("Utilisateur Supprimer")
     }
     if (!IsAdmin()) return <></>;

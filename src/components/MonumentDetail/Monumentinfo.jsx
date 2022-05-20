@@ -64,7 +64,7 @@ export default function Monumentinfo(props) {
       redirect: "follow",
     };
 
-    fetch("http://localhost:8080/monument?id=" +id, requestOptions)
+    fetch("http://10.72.126.185:8080/monument?id=" +id, requestOptions)
       .then((response) => response.json())
       .then((data) => {setMonument(data);setNom(data.nom);setDesc(data.description);setVille(data.ville);setImage(data.liensImage);setEval(data.evaluations);});}
       ,[monument])
@@ -102,7 +102,7 @@ export default function Monumentinfo(props) {
         }
 
         <IconButton >
-        <Button onClick={()=> window.open("http://localhost:8080/pdf/"+id, "_blank")} variant='outlined' startIcon= {<DownloadIcon />}>Download pdf</Button>
+        <Button onClick={()=> window.open("http://10.72.126.185:8080/pdf/"+id, "_blank")} variant='outlined' startIcon= {<DownloadIcon />}>Download pdf</Button>
         </IconButton>
         </div>
         <ExpandMore

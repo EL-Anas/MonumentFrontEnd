@@ -24,7 +24,7 @@ export default function DeletMonument(props) {
             body: {"monumentId":props.idMonument} ,
             redirect: 'follow'
         };
-        fetch("http://localhost:8080/monument/delete?monumentId="+props.idMonument, requestOptions)
+        fetch("http://10.72.126.185:8080/monument/delete?monumentId="+props.idMonument, requestOptions)
         .then(alert("Monument Supprimer")).then(navigate("/"))
         
  

@@ -25,9 +25,9 @@ const Home = () => {
   },[]);
 
   const getMonumentsFirst =(motcle)=>{
-    let link = 'http://localhost:8080/search?motClets='+encodeURIComponent(motcle.split(" ").join(","));
+    let link = 'http://10.72.126.185:8080/search?motClets='+encodeURIComponent(motcle.split(" ").join(","));
     if (motcle == '')
-      link ='http://localhost:8080/search';
+      link ='http://10.72.126.185:8080/search';
 
     fetch(link)
       .then(response => response.json())

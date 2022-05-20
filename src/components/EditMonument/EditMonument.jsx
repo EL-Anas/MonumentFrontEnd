@@ -41,7 +41,7 @@ const redirect=(field)=>{
 }
   React.useEffect( () => { 
     
-        const link = 'http://localhost:8080/monument?id='+id;
+        const link = 'http://10.72.126.185:8080/monument?id='+id;
         const requestOptions = {
         method: 'GET',
         headers: { 'Content-Type': 'application/json' },
@@ -94,7 +94,7 @@ if (img3 !== "") {
   MonumentUpdated.liensImage.push(img3);
 }
 
-    const link = 'http://localhost:8080/monument/edit';
+    const link = 'http://10.72.126.185:8080/monument/edit';
     const requestOptions = {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },

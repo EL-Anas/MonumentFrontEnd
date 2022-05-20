@@ -44,10 +44,10 @@ const Deconnexion = () => {
 const TopBar = () => {
   
   const connected = () => {
-    const c = !(GetToken() == "null")  && !(GetToken() == "fail") 
+    const c = !(GetToken() == "null")  && !(GetToken() == "fail") && (GetToken() != null)
     
     console.log("connected" + GetToken())
-    console.log("connected" + c)
+    console.log("connected q" + c)
     return c ;
   }
 

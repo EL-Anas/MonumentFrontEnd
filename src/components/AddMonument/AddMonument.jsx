@@ -62,7 +62,7 @@ const redirect=(field)=>{
     "rating": 0.0
 } 
 
-    const link = 'http://localhost:8080/monument/add';
+    const link = 'http://10.72.126.185:8080/monument/add';
     const requestOptions = {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },

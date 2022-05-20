@@ -25,7 +25,7 @@ export default function DeleteEvaluation(props) {
             body: {"evaluationId":props.id} ,
             redirect: 'follow'
         };
-        fetch("http://localhost:8080/evaluation/delete?evaluationId="+props.id, requestOptions);
+        fetch("http://10.72.126.185:8080/evaluation/delete?evaluationId="+props.id, requestOptions);
         alert("Evaluation Supprimer")
  
     }
