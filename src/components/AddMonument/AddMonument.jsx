@@ -79,7 +79,7 @@ const redirect=(field)=>{
       <form>
         <TextField
           required
-          style={{ width: "500px", margin: "5px" }}
+          style={{ width: "100%" ,maxWidth: "500px", margin: "5px" }}
           type="text"
           label="Nom"
           variant="outlined"
@@ -88,7 +88,7 @@ const redirect=(field)=>{
         />
         <br />
         <TextField
-          style={{ width: "500px", margin: "5px" }}
+          style={{ width: "100%" ,maxWidth: "500px", margin: "5px" }}
           type="text"
           label="Description"
           variant="outlined"
@@ -97,7 +97,7 @@ const redirect=(field)=>{
         <br />
         <TextField
           required
-          style={{ width: "500px", margin: "5px" }}
+          style={{ width: "100%" ,maxWidth: "500px", margin: "5px" }}
           type="number"
           label="Longitude"
           variant="outlined"
@@ -107,7 +107,7 @@ const redirect=(field)=>{
         <br />
         <TextField
           required
-          style={{ width: "500px", margin: "5px" }}
+          style={{ width: "100%" ,maxWidth: "500px", margin: "5px" }}
           type="number"
           label="Latitude"
           variant="outlined"
@@ -117,7 +117,7 @@ const redirect=(field)=>{
         <br />
         <TextField
           required
-          style={{ width: "500px", margin: "5px" }}
+          style={{ width: "100%" ,maxWidth: "500px", margin: "5px" }}
           type="text"
           label="Ville"
           variant="outlined"
@@ -127,7 +127,7 @@ const redirect=(field)=>{
         <br />
         <TextField
           required
-          style={{ width: "500px", margin: "5px" }}
+          style={{ width: "100%" ,maxWidth: "500px", margin: "5px" }}
           type="text"
           label="Image Link 1"
           variant="outlined"
@@ -136,7 +136,7 @@ const redirect=(field)=>{
         />
         <br />
         <TextField
-          style={{ width: "500px", margin: "5px" }}
+          style={{ width: "100%" ,maxWidth: "500px", margin: "5px" }}
           type="text"
           label="Image Link 2"
           variant="outlined"
@@ -144,7 +144,7 @@ const redirect=(field)=>{
         />
         <br />
         <TextField
-          style={{ width: "500px", margin: "5px" }}
+          style={{ width: "100%" ,maxWidth: "500px", margin: "5px" }}
           type="text"
           label="Image Link 3"
           variant="outlined"
